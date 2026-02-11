@@ -1,0 +1,2525 @@
+@prefix chem: <http://example.org/chemistry#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+chem:AtomAttachment a owl:ObjectProperty ;
+    rdfs:label "AtomAttachment" .
+
+chem:BondAttachment a owl:ObjectProperty ;
+    rdfs:label "BondAttachment" .
+
+chem:Containment a owl:ObjectProperty ;
+    rdfs:label "Containment" .
+
+chem:Fusion a owl:ObjectProperty ;
+    rdfs:label "Fusion" .
+
+chem:compounds_1 a chem:compounds ;
+    rdfs:label "compounds_1" ;
+    chem:indices "0,1" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_10 a chem:compounds ;
+    rdfs:label "compounds_10" ;
+    chem:BondAttachment chem:aliphatic_compounds_9,
+        chem:alkanes_9,
+        chem:compounds_12,
+        chem:organic_compounds_12 ;
+    chem:Containment chem:aliphatic_compounds_6,
+        chem:aliphatic_compounds_7,
+        chem:alkanes_6,
+        chem:alkanes_7 ;
+    chem:indices "14,15" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_16 a chem:compounds ;
+    rdfs:label "compounds_16" ;
+    chem:Containment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1> ;
+    chem:indices "21,23" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_17 a chem:compounds ;
+    rdfs:label "compounds_17" ;
+    chem:Containment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2> ;
+    chem:indices "30,31" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_18 a chem:compounds ;
+    rdfs:label "compounds_18" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:aliphatic_compounds_13,
+        chem:alkanes_13,
+        chem:compounds_20,
+        chem:organic_compounds_20 ;
+    chem:Containment chem:aliphatic_compounds_11,
+        chem:alkanes_11 ;
+    chem:indices "34,35" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_19 a chem:compounds ;
+    rdfs:label "compounds_19" ;
+    chem:BondAttachment chem:aliphatic_compounds_14,
+        chem:alkanes_14,
+        chem:compounds_21,
+        chem:organic_compounds_21 ;
+    chem:Containment chem:aliphatic_compounds_11,
+        chem:aliphatic_compounds_12,
+        chem:alkanes_11,
+        chem:alkanes_12 ;
+    chem:indices "35,36" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_2 a chem:compounds ;
+    rdfs:label "compounds_2" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1>,
+        chem:aliphatic_compounds_3,
+        chem:alkanes_3,
+        chem:compounds_4,
+        chem:organic_compounds_4 ;
+    chem:Containment chem:aliphatic_compounds_1,
+        chem:alkanes_1 ;
+    chem:indices "5,6" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_25 a chem:compounds ;
+    rdfs:label "compounds_25" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:aliphatic_compounds_18,
+        chem:alkanes_18,
+        chem:compounds_27,
+        chem:organic_compounds_27 ;
+    chem:Containment chem:aliphatic_compounds_16,
+        chem:alkanes_16 ;
+    chem:indices "42,43" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_26 a chem:compounds ;
+    rdfs:label "compounds_26" ;
+    chem:BondAttachment chem:aliphatic_compounds_19,
+        chem:alkanes_19,
+        chem:compounds_28,
+        chem:organic_compounds_28 ;
+    chem:Containment chem:aliphatic_compounds_16,
+        chem:aliphatic_compounds_17,
+        chem:alkanes_16,
+        chem:alkanes_17 ;
+    chem:indices "43,44" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_3 a chem:compounds ;
+    rdfs:label "compounds_3" ;
+    chem:BondAttachment chem:aliphatic_compounds_4,
+        chem:alkanes_4,
+        chem:compounds_5,
+        chem:organic_compounds_5 ;
+    chem:Containment chem:aliphatic_compounds_1,
+        chem:aliphatic_compounds_2,
+        chem:alkanes_1,
+        chem:alkanes_2 ;
+    chem:indices "6,7" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_9 a chem:compounds ;
+    rdfs:label "compounds_9" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1>,
+        chem:aliphatic_compounds_8,
+        chem:alkanes_8,
+        chem:compounds_11,
+        chem:organic_compounds_11 ;
+    chem:Containment chem:aliphatic_compounds_6,
+        chem:alkanes_6 ;
+    chem:indices "13,14" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:dialkyl_secondary_amines_1 a chem:dialkyl_secondary_amines ;
+    rdfs:label "dialkyl_secondary_amines_1" ;
+    chem:BondAttachment chem:aldehydes_1,
+        chem:aliphatic_compounds_22,
+        chem:alkanes_22,
+        chem:compounds_33,
+        chem:compounds_36,
+        chem:functional_groups_2,
+        chem:organic_compounds_33,
+        chem:organic_compounds_36,
+        chem:oxygen_containing_functional_groups_1,
+        chem:thiophenes_5 ;
+    chem:Containment chem:alkyl_primary_amines_1,
+        chem:alkyl_primary_amines_2,
+        chem:alkyl_tertiary_amines_1,
+        chem:amines_1,
+        chem:amines_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:secondary_amides_3,
+        chem:tertiary_amides_1,
+        chem:tertiary_amides_2,
+        chem:tertiary_amines_1 ;
+    chem:indices "55,56,57" ;
+    chem:name "dialkyl secondary amines" ;
+    chem:smiles "CNC" .
+
+chem:dialkyl_secondary_amines_2 a chem:dialkyl_secondary_amines ;
+    rdfs:label "dialkyl_secondary_amines_2" ;
+    chem:BondAttachment chem:aliphatic_compounds_21,
+        chem:alkanes_21,
+        chem:compounds_35,
+        chem:organic_compounds_35 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrroles_1>,
+        chem:alkyl_primary_amines_1,
+        chem:alkyl_primary_amines_3,
+        chem:alkyl_tertiary_amines_1,
+        chem:amines_1,
+        chem:amines_3,
+        chem:dicarboximides_1,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amides_1,
+        chem:secondary_amides_4,
+        chem:tertiary_amides_1,
+        chem:tertiary_amides_2,
+        chem:tertiary_amines_1 ;
+    chem:indices "55,56,65" ;
+    chem:name "dialkyl secondary amines" ;
+    chem:smiles "CNC" .
+
+chem:dialkyl_secondary_amines_3 a chem:dialkyl_secondary_amines ;
+    rdfs:label "dialkyl_secondary_amines_3" ;
+    chem:BondAttachment chem:aldehydes_2,
+        chem:aliphatic_compounds_22,
+        chem:alkanes_22,
+        chem:compounds_34,
+        chem:compounds_36,
+        chem:functional_groups_1,
+        chem:organic_compounds_34,
+        chem:organic_compounds_36,
+        chem:oxygen_containing_functional_groups_2,
+        chem:thiophenes_5 ;
+    chem:Containment chem:alkyl_primary_amines_2,
+        chem:alkyl_primary_amines_3,
+        chem:alkyl_tertiary_amines_1,
+        chem:amines_2,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amides_2,
+        chem:tertiary_amides_1,
+        chem:tertiary_amides_2,
+        chem:tertiary_amines_1 ;
+    chem:indices "56,57,65" ;
+    chem:name "dialkyl secondary amines" ;
+    chem:smiles "CNC" .
+
+chem:organic_compounds_1 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_1" ;
+    chem:indices "0,1" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_16 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_16" ;
+    chem:Containment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1> ;
+    chem:indices "21,23" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_17 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_17" ;
+    chem:Containment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2> ;
+    chem:indices "30,31" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+<http://example.org/chemistry#thieno[3,2-b]thiophenes_1> a <http://example.org/chemistry#thieno[3,2-b]thiophenes> ;
+    rdfs:label "thieno[3,2-b]thiophenes_1" ;
+    chem:BondAttachment chem:thiophenes_1,
+        chem:thiophenes_4 ;
+    chem:Containment chem:thiophenes_2,
+        chem:thiophenes_3 ;
+    chem:indices "23,24,25,26,27,28,29,30" ;
+    chem:name "thieno[3,2-b]thiophenes" ;
+    chem:smiles "c1cc2sccc2s1" .
+
+<http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones> a owl:Class ;
+    rdfs:label "4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones" .
+
+<http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrroles> a owl:Class ;
+    rdfs:label "4H,5H,6H-thieno[3,4-c]pyrroles" .
+
+chem:alkyl_tertiary_amines a owl:Class ;
+    rdfs:label "alkyl tertiary amines" .
+
+chem:compounds_11 a chem:compounds ;
+    rdfs:label "compounds_11" ;
+    chem:BondAttachment chem:aliphatic_compounds_10,
+        chem:alkanes_10,
+        chem:compounds_13,
+        chem:organic_compounds_13,
+        chem:organic_compounds_9 ;
+    chem:Containment chem:aliphatic_compounds_6,
+        chem:aliphatic_compounds_7,
+        chem:aliphatic_compounds_8,
+        chem:alkanes_6,
+        chem:alkanes_7,
+        chem:alkanes_8 ;
+    chem:indices "15,16" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_12 a chem:compounds ;
+    rdfs:label "compounds_12" ;
+    chem:BondAttachment chem:compounds_14,
+        chem:organic_compounds_10,
+        chem:organic_compounds_14 ;
+    chem:Containment chem:aliphatic_compounds_7,
+        chem:aliphatic_compounds_8,
+        chem:aliphatic_compounds_9,
+        chem:alkanes_7,
+        chem:alkanes_8,
+        chem:alkanes_9 ;
+    chem:indices "16,17" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_13 a chem:compounds ;
+    rdfs:label "compounds_13" ;
+    chem:BondAttachment chem:aliphatic_compounds_6,
+        chem:alkanes_6,
+        chem:compounds_15,
+        chem:organic_compounds_11,
+        chem:organic_compounds_15 ;
+    chem:Containment chem:aliphatic_compounds_10,
+        chem:aliphatic_compounds_8,
+        chem:aliphatic_compounds_9,
+        chem:alkanes_10,
+        chem:alkanes_8,
+        chem:alkanes_9 ;
+    chem:indices "17,18" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_14 a chem:compounds ;
+    rdfs:label "compounds_14" ;
+    chem:BondAttachment chem:aliphatic_compounds_7,
+        chem:alkanes_7,
+        chem:organic_compounds_12 ;
+    chem:Containment chem:aliphatic_compounds_10,
+        chem:aliphatic_compounds_9,
+        chem:alkanes_10,
+        chem:alkanes_9 ;
+    chem:indices "18,19" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_15 a chem:compounds ;
+    rdfs:label "compounds_15" ;
+    chem:BondAttachment chem:aliphatic_compounds_8,
+        chem:alkanes_8,
+        chem:organic_compounds_13 ;
+    chem:Containment chem:aliphatic_compounds_10,
+        chem:alkanes_10 ;
+    chem:indices "19,20" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_20 a chem:compounds ;
+    rdfs:label "compounds_20" ;
+    chem:BondAttachment chem:aliphatic_compounds_15,
+        chem:alkanes_15,
+        chem:compounds_22,
+        chem:organic_compounds_18,
+        chem:organic_compounds_22 ;
+    chem:Containment chem:aliphatic_compounds_11,
+        chem:aliphatic_compounds_12,
+        chem:aliphatic_compounds_13,
+        chem:alkanes_11,
+        chem:alkanes_12,
+        chem:alkanes_13 ;
+    chem:indices "36,37" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_21 a chem:compounds ;
+    rdfs:label "compounds_21" ;
+    chem:BondAttachment chem:compounds_23,
+        chem:organic_compounds_19,
+        chem:organic_compounds_23 ;
+    chem:Containment chem:aliphatic_compounds_12,
+        chem:aliphatic_compounds_13,
+        chem:aliphatic_compounds_14,
+        chem:alkanes_12,
+        chem:alkanes_13,
+        chem:alkanes_14 ;
+    chem:indices "37,38" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_22 a chem:compounds ;
+    rdfs:label "compounds_22" ;
+    chem:BondAttachment chem:aliphatic_compounds_11,
+        chem:alkanes_11,
+        chem:compounds_24,
+        chem:organic_compounds_20,
+        chem:organic_compounds_24 ;
+    chem:Containment chem:aliphatic_compounds_13,
+        chem:aliphatic_compounds_14,
+        chem:aliphatic_compounds_15,
+        chem:alkanes_13,
+        chem:alkanes_14,
+        chem:alkanes_15 ;
+    chem:indices "38,39" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_23 a chem:compounds ;
+    rdfs:label "compounds_23" ;
+    chem:BondAttachment chem:aliphatic_compounds_12,
+        chem:alkanes_12,
+        chem:organic_compounds_21 ;
+    chem:Containment chem:aliphatic_compounds_14,
+        chem:aliphatic_compounds_15,
+        chem:alkanes_14,
+        chem:alkanes_15 ;
+    chem:indices "39,40" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_24 a chem:compounds ;
+    rdfs:label "compounds_24" ;
+    chem:BondAttachment chem:aliphatic_compounds_13,
+        chem:alkanes_13,
+        chem:organic_compounds_22 ;
+    chem:Containment chem:aliphatic_compounds_15,
+        chem:alkanes_15 ;
+    chem:indices "40,41" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_27 a chem:compounds ;
+    rdfs:label "compounds_27" ;
+    chem:BondAttachment chem:aliphatic_compounds_20,
+        chem:alkanes_20,
+        chem:compounds_29,
+        chem:organic_compounds_25,
+        chem:organic_compounds_29 ;
+    chem:Containment chem:aliphatic_compounds_16,
+        chem:aliphatic_compounds_17,
+        chem:aliphatic_compounds_18,
+        chem:alkanes_16,
+        chem:alkanes_17,
+        chem:alkanes_18 ;
+    chem:indices "44,45" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_28 a chem:compounds ;
+    rdfs:label "compounds_28" ;
+    chem:BondAttachment chem:compounds_30,
+        chem:organic_compounds_26,
+        chem:organic_compounds_30 ;
+    chem:Containment chem:aliphatic_compounds_17,
+        chem:aliphatic_compounds_18,
+        chem:aliphatic_compounds_19,
+        chem:alkanes_17,
+        chem:alkanes_18,
+        chem:alkanes_19 ;
+    chem:indices "45,46" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_29 a chem:compounds ;
+    rdfs:label "compounds_29" ;
+    chem:BondAttachment chem:aliphatic_compounds_16,
+        chem:alkanes_16,
+        chem:compounds_31,
+        chem:organic_compounds_27,
+        chem:organic_compounds_31 ;
+    chem:Containment chem:aliphatic_compounds_18,
+        chem:aliphatic_compounds_19,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_18,
+        chem:alkanes_19,
+        chem:alkanes_20 ;
+    chem:indices "46,47" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_30 a chem:compounds ;
+    rdfs:label "compounds_30" ;
+    chem:BondAttachment chem:aliphatic_compounds_17,
+        chem:alkanes_17,
+        chem:organic_compounds_28 ;
+    chem:Containment chem:aliphatic_compounds_19,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_19,
+        chem:alkanes_20 ;
+    chem:indices "47,48" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_31 a chem:compounds ;
+    rdfs:label "compounds_31" ;
+    chem:BondAttachment chem:aliphatic_compounds_18,
+        chem:alkanes_18,
+        chem:organic_compounds_29 ;
+    chem:Containment chem:aliphatic_compounds_20,
+        chem:alkanes_20 ;
+    chem:indices "48,49" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_32 a chem:compounds ;
+    rdfs:label "compounds_32" ;
+    chem:BondAttachment chem:aldehydes_1,
+        chem:amides_1,
+        chem:carbonyl_groups_1,
+        chem:compounds_33,
+        chem:organic_compounds_33,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amides_1,
+        chem:secondary_amides_1,
+        chem:secondary_amides_2,
+        chem:tertiary_amides_1 ;
+    chem:indices "51,52" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_37 a chem:compounds ;
+    rdfs:label "compounds_37" ;
+    chem:BondAttachment chem:aliphatic_compounds_25,
+        chem:alkanes_25,
+        chem:compounds_39,
+        chem:organic_compounds_35,
+        chem:organic_compounds_39 ;
+    chem:Containment chem:aliphatic_compounds_21,
+        chem:aliphatic_compounds_22,
+        chem:aliphatic_compounds_23,
+        chem:alkanes_21,
+        chem:alkanes_22,
+        chem:alkanes_23 ;
+    chem:indices "59,60" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_38 a chem:compounds ;
+    rdfs:label "compounds_38" ;
+    chem:BondAttachment chem:compounds_40,
+        chem:organic_compounds_36,
+        chem:organic_compounds_40 ;
+    chem:Containment chem:aliphatic_compounds_22,
+        chem:aliphatic_compounds_23,
+        chem:aliphatic_compounds_24,
+        chem:alkanes_22,
+        chem:alkanes_23,
+        chem:alkanes_24 ;
+    chem:indices "60,61" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_39 a chem:compounds ;
+    rdfs:label "compounds_39" ;
+    chem:BondAttachment chem:aliphatic_compounds_21,
+        chem:alkanes_21,
+        chem:compounds_41,
+        chem:organic_compounds_37,
+        chem:organic_compounds_41 ;
+    chem:Containment chem:aliphatic_compounds_23,
+        chem:aliphatic_compounds_24,
+        chem:aliphatic_compounds_25,
+        chem:alkanes_23,
+        chem:alkanes_24,
+        chem:alkanes_25 ;
+    chem:indices "61,62" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_4 a chem:compounds ;
+    rdfs:label "compounds_4" ;
+    chem:BondAttachment chem:aliphatic_compounds_5,
+        chem:alkanes_5,
+        chem:compounds_6,
+        chem:organic_compounds_2,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:aliphatic_compounds_1,
+        chem:aliphatic_compounds_2,
+        chem:aliphatic_compounds_3,
+        chem:alkanes_1,
+        chem:alkanes_2,
+        chem:alkanes_3 ;
+    chem:indices "7,8" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_40 a chem:compounds ;
+    rdfs:label "compounds_40" ;
+    chem:BondAttachment chem:aliphatic_compounds_22,
+        chem:alkanes_22,
+        chem:organic_compounds_38 ;
+    chem:Containment chem:aliphatic_compounds_24,
+        chem:aliphatic_compounds_25,
+        chem:alkanes_24,
+        chem:alkanes_25 ;
+    chem:indices "62,63" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_41 a chem:compounds ;
+    rdfs:label "compounds_41" ;
+    chem:BondAttachment chem:aliphatic_compounds_23,
+        chem:alkanes_23,
+        chem:organic_compounds_39 ;
+    chem:Containment chem:aliphatic_compounds_25,
+        chem:alkanes_25 ;
+    chem:indices "63,64" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_5 a chem:compounds ;
+    rdfs:label "compounds_5" ;
+    chem:BondAttachment chem:compounds_7,
+        chem:organic_compounds_3,
+        chem:organic_compounds_7 ;
+    chem:Containment chem:aliphatic_compounds_2,
+        chem:aliphatic_compounds_3,
+        chem:aliphatic_compounds_4,
+        chem:alkanes_2,
+        chem:alkanes_3,
+        chem:alkanes_4 ;
+    chem:indices "8,9" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_6 a chem:compounds ;
+    rdfs:label "compounds_6" ;
+    chem:BondAttachment chem:aliphatic_compounds_1,
+        chem:alkanes_1,
+        chem:compounds_8,
+        chem:organic_compounds_4,
+        chem:organic_compounds_8 ;
+    chem:Containment chem:aliphatic_compounds_3,
+        chem:aliphatic_compounds_4,
+        chem:aliphatic_compounds_5,
+        chem:alkanes_3,
+        chem:alkanes_4,
+        chem:alkanes_5 ;
+    chem:indices "9,10" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_7 a chem:compounds ;
+    rdfs:label "compounds_7" ;
+    chem:BondAttachment chem:aliphatic_compounds_2,
+        chem:alkanes_2,
+        chem:organic_compounds_5 ;
+    chem:Containment chem:aliphatic_compounds_4,
+        chem:aliphatic_compounds_5,
+        chem:alkanes_4,
+        chem:alkanes_5 ;
+    chem:indices "10,11" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_8 a chem:compounds ;
+    rdfs:label "compounds_8" ;
+    chem:BondAttachment chem:aliphatic_compounds_3,
+        chem:alkanes_3,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:aliphatic_compounds_5,
+        chem:alkanes_5 ;
+    chem:indices "11,12" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:dicarboximides a owl:Class ;
+    rdfs:label "dicarboximides" .
+
+chem:tertiary_amines a owl:Class ;
+    rdfs:label "tertiary amines" .
+
+<http://example.org/chemistry#thieno[3,2-b]thiophenes> a owl:Class ;
+    rdfs:label "thieno[3,2-b]thiophenes" .
+
+<http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes> a owl:Class ;
+    rdfs:label "3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes" .
+
+<http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones> a owl:Class ;
+    rdfs:label "4H,5H,6H-thieno[3,4-c]pyrrol-4-ones" .
+
+chem:aldehydes a owl:Class ;
+    rdfs:label "aldehydes" .
+
+chem:alkyl_primary_amines_1 a chem:alkyl_primary_amines ;
+    rdfs:label "alkyl_primary_amines_1" ;
+    chem:BondAttachment chem:aldehydes_1,
+        chem:aliphatic_compounds_21,
+        chem:alkanes_21,
+        chem:compounds_33,
+        chem:compounds_35,
+        chem:functional_groups_2,
+        chem:organic_compounds_33,
+        chem:organic_compounds_35,
+        chem:oxygen_containing_functional_groups_1,
+        chem:thiophenes_5 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrroles_1>,
+        chem:alkyl_tertiary_amines_1,
+        chem:amides_2,
+        chem:carbonyl_groups_2,
+        chem:dicarboximides_1,
+        chem:primary_amides_2,
+        chem:secondary_amides_1,
+        chem:secondary_amides_3,
+        chem:secondary_amides_4,
+        chem:secondary_amines_1,
+        chem:secondary_amines_2,
+        chem:tertiary_amides_1,
+        chem:tertiary_amides_2,
+        chem:tertiary_amines_1 ;
+    chem:indices "55,56" ;
+    chem:name "alkyl primary amines" ;
+    chem:smiles "CN" .
+
+chem:alkyl_primary_amines_2 a chem:alkyl_primary_amines ;
+    rdfs:label "alkyl_primary_amines_2" ;
+    chem:BondAttachment chem:aldehydes_1,
+        chem:aldehydes_2,
+        chem:aliphatic_compounds_22,
+        chem:alkanes_22,
+        chem:compounds_33,
+        chem:compounds_34,
+        chem:compounds_36,
+        chem:functional_groups_1,
+        chem:functional_groups_2,
+        chem:organic_compounds_33,
+        chem:organic_compounds_34,
+        chem:organic_compounds_36,
+        chem:oxygen_containing_functional_groups_1,
+        chem:oxygen_containing_functional_groups_2 ;
+    chem:Containment chem:alkyl_tertiary_amines_1,
+        chem:secondary_amides_2,
+        chem:secondary_amides_3,
+        chem:secondary_amines_1,
+        chem:secondary_amines_3,
+        chem:tertiary_amides_1,
+        chem:tertiary_amides_2,
+        chem:tertiary_amines_1 ;
+    chem:indices "56,57" ;
+    chem:name "alkyl primary amines" ;
+    chem:smiles "CN" .
+
+chem:alkyl_primary_amines_3 a chem:alkyl_primary_amines ;
+    rdfs:label "alkyl_primary_amines_3" ;
+    chem:BondAttachment chem:aldehydes_2,
+        chem:aliphatic_compounds_21,
+        chem:alkanes_21,
+        chem:compounds_34,
+        chem:compounds_35,
+        chem:functional_groups_1,
+        chem:organic_compounds_34,
+        chem:organic_compounds_35,
+        chem:oxygen_containing_functional_groups_2,
+        chem:thiophenes_5 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrroles_1>,
+        chem:alkyl_tertiary_amines_1,
+        chem:amides_1,
+        chem:carbonyl_groups_1,
+        chem:dicarboximides_1,
+        chem:primary_amides_1,
+        chem:secondary_amides_1,
+        chem:secondary_amides_2,
+        chem:secondary_amides_4,
+        chem:secondary_amines_2,
+        chem:secondary_amines_3,
+        chem:tertiary_amides_1,
+        chem:tertiary_amides_2,
+        chem:tertiary_amines_1 ;
+    chem:indices "56,65" ;
+    chem:name "alkyl primary amines" ;
+    chem:smiles "CN" .
+
+chem:amides a owl:Class ;
+    rdfs:label "amides" .
+
+chem:carbonyl_groups a owl:Class ;
+    rdfs:label "carbonyl groups" .
+
+chem:compounds_42 a chem:compounds ;
+    rdfs:label "compounds_42" ;
+    chem:BondAttachment chem:aldehydes_2,
+        chem:amides_2,
+        chem:carbonyl_groups_2,
+        chem:organic_compounds_34,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amides_2,
+        chem:secondary_amides_3,
+        chem:secondary_amides_4,
+        chem:tertiary_amides_2 ;
+    chem:indices "68,69" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:functional_groups a owl:Class ;
+    rdfs:label "functional groups" .
+
+chem:oxygen_containing_functional_groups a owl:Class ;
+    rdfs:label "oxygen containing functional groups" .
+
+chem:primary_amides a owl:Class ;
+    rdfs:label "primary amides" .
+
+chem:tertiary_amides a owl:Class ;
+    rdfs:label "tertiary amides" .
+
+chem:thiophenes_1 a chem:thiophenes ;
+    rdfs:label "thiophenes_1" ;
+    chem:BondAttachment chem:thiophenes_2 ;
+    chem:indices "1,2,3,21,22" ;
+    chem:name "thiophenes" ;
+    chem:smiles "c1ccsc1" .
+
+chem:alkyl_primary_amines a owl:Class ;
+    rdfs:label "alkyl primary amines" .
+
+chem:amines a owl:Class ;
+    rdfs:label "amines" .
+
+chem:compounds_36 a chem:compounds ;
+    rdfs:label "compounds_36" ;
+    chem:BondAttachment chem:aliphatic_compounds_24,
+        chem:alkanes_24,
+        chem:alkyl_tertiary_amines_1,
+        chem:amines_2,
+        chem:compounds_38,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:organic_compounds_38,
+        chem:primary_amines_2,
+        chem:secondary_amides_2,
+        chem:secondary_amides_3,
+        chem:secondary_amines_1,
+        chem:secondary_amines_3,
+        chem:tertiary_amides_1,
+        chem:tertiary_amides_2,
+        chem:tertiary_amines_1 ;
+    chem:Containment chem:aliphatic_compounds_21,
+        chem:aliphatic_compounds_22,
+        chem:alkanes_21,
+        chem:alkanes_22 ;
+    chem:indices "58,59" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:dialkyl_secondary_amines a owl:Class ;
+    rdfs:label "dialkyl secondary amines" .
+
+chem:dicarboximides_1 a chem:dicarboximides ;
+    rdfs:label "dicarboximides_1" ;
+    chem:BondAttachment chem:aliphatic_compounds_21,
+        chem:alkanes_21,
+        chem:compounds_32,
+        chem:compounds_35,
+        chem:compounds_42,
+        chem:organic_compounds_32,
+        chem:organic_compounds_35,
+        chem:organic_compounds_42 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1>,
+        chem:aldehydes_1,
+        chem:aldehydes_2,
+        chem:amides_1,
+        chem:amides_2,
+        chem:amines_1,
+        chem:amines_3,
+        chem:carbonyl_groups_1,
+        chem:carbonyl_groups_2,
+        chem:compounds_33,
+        chem:compounds_34,
+        chem:functional_groups_1,
+        chem:functional_groups_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:organic_compounds_33,
+        chem:organic_compounds_34,
+        chem:oxygen_containing_functional_groups_1,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amides_1,
+        chem:primary_amides_2,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amides_1,
+        chem:secondary_amides_4,
+        chem:secondary_amines_2 ;
+    chem:indices "53,54,55,56,65,66,67" ;
+    chem:name "dicarboximides" ;
+    chem:smiles "CC(=O)NC(C)=O" .
+
+chem:nitrogen_containing_functional_groups a owl:Class ;
+    rdfs:label "nitrogen containing functional groups" .
+
+chem:organic_compounds_18 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_18" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:alkanes_13,
+        chem:organic_compounds_20 ;
+    chem:Containment chem:alkanes_11 ;
+    chem:indices "34,35" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_2 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_2" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1>,
+        chem:alkanes_3,
+        chem:organic_compounds_4 ;
+    chem:Containment chem:alkanes_1 ;
+    chem:indices "5,6" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_25 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_25" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:alkanes_18,
+        chem:organic_compounds_27 ;
+    chem:Containment chem:alkanes_16 ;
+    chem:indices "42,43" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_32 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_32" ;
+    chem:BondAttachment chem:aldehydes_1,
+        chem:amides_1,
+        chem:carbonyl_groups_1,
+        chem:organic_compounds_33,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amides_1,
+        chem:secondary_amides_1,
+        chem:secondary_amides_2 ;
+    chem:indices "51,52" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_9 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_9" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1>,
+        chem:alkanes_8,
+        chem:organic_compounds_11 ;
+    chem:Containment chem:alkanes_6 ;
+    chem:indices "13,14" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:primary_amines a owl:Class ;
+    rdfs:label "primary amines" .
+
+chem:secondary_amines a owl:Class ;
+    rdfs:label "secondary amines" .
+
+chem:aliphatic_compounds_1 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_1" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1>,
+        chem:aliphatic_compounds_5,
+        chem:alkanes_5,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:organic_compounds_2,
+        chem:organic_compounds_3,
+        chem:organic_compounds_4 ;
+    chem:indices "5,6,7,8" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_11 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_11" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:aliphatic_compounds_15,
+        chem:alkanes_15,
+        chem:organic_compounds_22 ;
+    chem:Containment chem:organic_compounds_18,
+        chem:organic_compounds_19,
+        chem:organic_compounds_20 ;
+    chem:indices "34,35,36,37" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_12 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_12" ;
+    chem:BondAttachment chem:organic_compounds_23 ;
+    chem:Containment chem:organic_compounds_19,
+        chem:organic_compounds_20,
+        chem:organic_compounds_21 ;
+    chem:indices "35,36,37,38" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_14 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_14" ;
+    chem:BondAttachment chem:organic_compounds_19 ;
+    chem:Containment chem:organic_compounds_21,
+        chem:organic_compounds_22,
+        chem:organic_compounds_23 ;
+    chem:indices "37,38,39,40" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_16 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_16" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_20,
+        chem:organic_compounds_29 ;
+    chem:Containment chem:organic_compounds_25,
+        chem:organic_compounds_26,
+        chem:organic_compounds_27 ;
+    chem:indices "42,43,44,45" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_17 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_17" ;
+    chem:BondAttachment chem:organic_compounds_30 ;
+    chem:Containment chem:organic_compounds_26,
+        chem:organic_compounds_27,
+        chem:organic_compounds_28 ;
+    chem:indices "43,44,45,46" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_19 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_19" ;
+    chem:BondAttachment chem:organic_compounds_26 ;
+    chem:Containment chem:organic_compounds_28,
+        chem:organic_compounds_29,
+        chem:organic_compounds_30 ;
+    chem:indices "45,46,47,48" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_2 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_2" ;
+    chem:BondAttachment chem:organic_compounds_7 ;
+    chem:Containment chem:organic_compounds_3,
+        chem:organic_compounds_4,
+        chem:organic_compounds_5 ;
+    chem:indices "6,7,8,9" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_24 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_24" ;
+    chem:BondAttachment chem:organic_compounds_36 ;
+    chem:Containment chem:organic_compounds_38,
+        chem:organic_compounds_39,
+        chem:organic_compounds_40 ;
+    chem:indices "60,61,62,63" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_4 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_4" ;
+    chem:BondAttachment chem:organic_compounds_3 ;
+    chem:Containment chem:organic_compounds_5,
+        chem:organic_compounds_6,
+        chem:organic_compounds_7 ;
+    chem:indices "8,9,10,11" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_6 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_6" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1>,
+        chem:aliphatic_compounds_10,
+        chem:alkanes_10,
+        chem:organic_compounds_13 ;
+    chem:Containment chem:organic_compounds_10,
+        chem:organic_compounds_11,
+        chem:organic_compounds_9 ;
+    chem:indices "13,14,15,16" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_7 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_7" ;
+    chem:BondAttachment chem:organic_compounds_14 ;
+    chem:Containment chem:organic_compounds_10,
+        chem:organic_compounds_11,
+        chem:organic_compounds_12 ;
+    chem:indices "14,15,16,17" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_9 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_9" ;
+    chem:BondAttachment chem:organic_compounds_10 ;
+    chem:Containment chem:organic_compounds_12,
+        chem:organic_compounds_13,
+        chem:organic_compounds_14 ;
+    chem:indices "16,17,18,19" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:compounds_35 a chem:compounds ;
+    rdfs:label "compounds_35" ;
+    chem:BondAttachment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrroles_1>,
+        chem:aliphatic_compounds_23,
+        chem:alkanes_23,
+        chem:amides_1,
+        chem:amides_2,
+        chem:amines_1,
+        chem:amines_3,
+        chem:carbonyl_groups_1,
+        chem:carbonyl_groups_2,
+        chem:compounds_37,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:organic_compounds_37,
+        chem:primary_amides_1,
+        chem:primary_amides_2,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amides_1,
+        chem:secondary_amides_4,
+        chem:secondary_amines_2 ;
+    chem:Containment chem:aliphatic_compounds_21,
+        chem:alkanes_21 ;
+    chem:indices "57,58" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_10 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_10" ;
+    chem:BondAttachment chem:alkanes_9,
+        chem:organic_compounds_12 ;
+    chem:Containment chem:alkanes_6,
+        chem:alkanes_7 ;
+    chem:indices "14,15" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_15 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_15" ;
+    chem:BondAttachment chem:alkanes_8 ;
+    chem:Containment chem:alkanes_10 ;
+    chem:indices "19,20" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_19 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_19" ;
+    chem:BondAttachment chem:alkanes_14,
+        chem:organic_compounds_21 ;
+    chem:Containment chem:alkanes_11,
+        chem:alkanes_12 ;
+    chem:indices "35,36" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_24 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_24" ;
+    chem:BondAttachment chem:alkanes_13 ;
+    chem:Containment chem:alkanes_15 ;
+    chem:indices "40,41" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_26 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_26" ;
+    chem:BondAttachment chem:alkanes_19,
+        chem:organic_compounds_28 ;
+    chem:Containment chem:alkanes_16,
+        chem:alkanes_17 ;
+    chem:indices "43,44" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_3 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_3" ;
+    chem:BondAttachment chem:alkanes_4,
+        chem:organic_compounds_5 ;
+    chem:Containment chem:alkanes_1,
+        chem:alkanes_2 ;
+    chem:indices "6,7" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_31 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_31" ;
+    chem:BondAttachment chem:alkanes_18 ;
+    chem:Containment chem:alkanes_20 ;
+    chem:indices "48,49" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_41 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_41" ;
+    chem:BondAttachment chem:alkanes_23 ;
+    chem:Containment chem:alkanes_25 ;
+    chem:indices "63,64" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_42 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_42" ;
+    chem:BondAttachment chem:aldehydes_2,
+        chem:amides_2,
+        chem:carbonyl_groups_2,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amides_2,
+        chem:secondary_amides_3,
+        chem:secondary_amides_4 ;
+    chem:indices "68,69" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_8 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_8" ;
+    chem:BondAttachment chem:alkanes_3 ;
+    chem:Containment chem:alkanes_5 ;
+    chem:indices "11,12" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:secondary_amides a owl:Class ;
+    rdfs:label "secondary amides" .
+
+chem:thiophenes_2 a chem:thiophenes ;
+    rdfs:label "thiophenes_2" ;
+    chem:Fusion chem:thiophenes_3 ;
+    chem:indices "23,24,25,27,28" ;
+    chem:name "thiophenes" ;
+    chem:smiles "c1ccsc1" .
+
+chem:thiophenes_3 a chem:thiophenes ;
+    rdfs:label "thiophenes_3" ;
+    chem:BondAttachment chem:thiophenes_4 ;
+    chem:indices "25,26,27,29,30" ;
+    chem:name "thiophenes" ;
+    chem:smiles "c1ccsc1" .
+
+chem:aliphatic_compounds_10 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_10" ;
+    chem:BondAttachment chem:alkanes_6,
+        chem:organic_compounds_11 ;
+    chem:Containment chem:organic_compounds_13,
+        chem:organic_compounds_14,
+        chem:organic_compounds_15 ;
+    chem:indices "17,18,19,20" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_13 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_13" ;
+    chem:BondAttachment chem:organic_compounds_18,
+        chem:organic_compounds_24 ;
+    chem:Containment chem:organic_compounds_20,
+        chem:organic_compounds_21,
+        chem:organic_compounds_22 ;
+    chem:indices "36,37,38,39" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_15 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_15" ;
+    chem:BondAttachment chem:alkanes_11,
+        chem:organic_compounds_20 ;
+    chem:Containment chem:organic_compounds_22,
+        chem:organic_compounds_23,
+        chem:organic_compounds_24 ;
+    chem:indices "38,39,40,41" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_18 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_18" ;
+    chem:BondAttachment chem:organic_compounds_25,
+        chem:organic_compounds_31 ;
+    chem:Containment chem:organic_compounds_27,
+        chem:organic_compounds_28,
+        chem:organic_compounds_29 ;
+    chem:indices "44,45,46,47" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_20 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_20" ;
+    chem:BondAttachment chem:alkanes_16,
+        chem:organic_compounds_27 ;
+    chem:Containment chem:organic_compounds_29,
+        chem:organic_compounds_30,
+        chem:organic_compounds_31 ;
+    chem:indices "46,47,48,49" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_23 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_23" ;
+    chem:BondAttachment chem:organic_compounds_35,
+        chem:organic_compounds_41 ;
+    chem:Containment chem:organic_compounds_37,
+        chem:organic_compounds_38,
+        chem:organic_compounds_39 ;
+    chem:indices "59,60,61,62" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_25 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_25" ;
+    chem:BondAttachment chem:alkanes_21,
+        chem:organic_compounds_37 ;
+    chem:Containment chem:organic_compounds_39,
+        chem:organic_compounds_40,
+        chem:organic_compounds_41 ;
+    chem:indices "61,62,63,64" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_3 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_3" ;
+    chem:BondAttachment chem:organic_compounds_2,
+        chem:organic_compounds_8 ;
+    chem:Containment chem:organic_compounds_4,
+        chem:organic_compounds_5,
+        chem:organic_compounds_6 ;
+    chem:indices "7,8,9,10" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_5 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_5" ;
+    chem:BondAttachment chem:alkanes_1,
+        chem:organic_compounds_4 ;
+    chem:Containment chem:organic_compounds_6,
+        chem:organic_compounds_7,
+        chem:organic_compounds_8 ;
+    chem:indices "9,10,11,12" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_8 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_8" ;
+    chem:BondAttachment chem:organic_compounds_15,
+        chem:organic_compounds_9 ;
+    chem:Containment chem:organic_compounds_11,
+        chem:organic_compounds_12,
+        chem:organic_compounds_13 ;
+    chem:indices "15,16,17,18" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:compounds_33 a chem:compounds ;
+    rdfs:label "compounds_33" ;
+    chem:BondAttachment chem:aldehydes_2,
+        chem:amines_1,
+        chem:amines_2,
+        chem:compounds_34,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:organic_compounds_32,
+        chem:organic_compounds_34,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:secondary_amines_1 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrroles_1>,
+        chem:aldehydes_1,
+        chem:amides_1,
+        chem:carbonyl_groups_1,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amides_1,
+        chem:secondary_amides_1,
+        chem:secondary_amides_2,
+        chem:tertiary_amides_1 ;
+    chem:indices "53,65" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_34 a chem:compounds ;
+    rdfs:label "compounds_34" ;
+    chem:BondAttachment chem:aldehydes_1,
+        chem:amines_2,
+        chem:amines_3,
+        chem:compounds_42,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:organic_compounds_33,
+        chem:organic_compounds_42,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amines_3 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrroles_1>,
+        chem:aldehydes_2,
+        chem:amides_2,
+        chem:carbonyl_groups_2,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amides_2,
+        chem:secondary_amides_3,
+        chem:secondary_amides_4,
+        chem:tertiary_amides_2 ;
+    chem:indices "54,55" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:functional_groups_1 a chem:functional_groups ;
+    rdfs:label "functional_groups_1" ;
+    chem:BondAttachment chem:amides_1,
+        chem:amines_2,
+        chem:amines_3,
+        chem:carbonyl_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amides_1,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amides_2,
+        chem:secondary_amines_3,
+        chem:thiophenes_5 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1>,
+        chem:aldehydes_2,
+        chem:amides_2,
+        chem:carbonyl_groups_2,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amides_2,
+        chem:secondary_amides_3,
+        chem:secondary_amides_4 ;
+    chem:indices "55,67" ;
+    chem:name "functional groups" ;
+    chem:smiles "C=O" .
+
+chem:functional_groups_2 a chem:functional_groups ;
+    rdfs:label "functional_groups_2" ;
+    chem:BondAttachment chem:amides_2,
+        chem:amines_1,
+        chem:amines_2,
+        chem:carbonyl_groups_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:primary_amides_2,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:secondary_amides_3,
+        chem:secondary_amines_1,
+        chem:thiophenes_5 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1>,
+        chem:aldehydes_1,
+        chem:amides_1,
+        chem:carbonyl_groups_1,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amides_1,
+        chem:secondary_amides_1,
+        chem:secondary_amides_2 ;
+    chem:indices "65,66" ;
+    chem:name "functional groups" ;
+    chem:smiles "C=O" .
+
+chem:organic_compounds_14 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_14" ;
+    chem:BondAttachment chem:alkanes_7 ;
+    chem:Containment chem:alkanes_10,
+        chem:alkanes_9 ;
+    chem:indices "18,19" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_23 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_23" ;
+    chem:BondAttachment chem:alkanes_12 ;
+    chem:Containment chem:alkanes_14,
+        chem:alkanes_15 ;
+    chem:indices "39,40" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_30 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_30" ;
+    chem:BondAttachment chem:alkanes_17 ;
+    chem:Containment chem:alkanes_19,
+        chem:alkanes_20 ;
+    chem:indices "47,48" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_40 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_40" ;
+    chem:BondAttachment chem:alkanes_22 ;
+    chem:Containment chem:alkanes_24,
+        chem:alkanes_25 ;
+    chem:indices "62,63" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_7 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_7" ;
+    chem:BondAttachment chem:alkanes_2 ;
+    chem:Containment chem:alkanes_4,
+        chem:alkanes_5 ;
+    chem:indices "10,11" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:thiophenes a owl:Class ;
+    rdfs:label "thiophenes" .
+
+<http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrroles_1> a <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrroles> ;
+    rdfs:label "4H,5H,6H-thieno[3,4-c]pyrroles_1" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:aliphatic_compounds_21,
+        chem:alkanes_21,
+        chem:organic_compounds_35,
+        chem:thiophenes_4 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1>,
+        chem:amines_1,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:organic_compounds_33,
+        chem:organic_compounds_34,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amines_2,
+        chem:thiophenes_5 ;
+    chem:indices "52,53,54,55,56,65,68,70" ;
+    chem:name "4H,5H,6H-thieno[3,4-c]pyrroles" ;
+    chem:smiles "c1scc2c1CNC2" .
+
+chem:organic_compounds_12 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_12" ;
+    chem:BondAttachment chem:organic_compounds_14 ;
+    chem:Containment chem:alkanes_7,
+        chem:alkanes_8,
+        chem:alkanes_9 ;
+    chem:indices "16,17" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_21 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_21" ;
+    chem:BondAttachment chem:organic_compounds_23 ;
+    chem:Containment chem:alkanes_12,
+        chem:alkanes_13,
+        chem:alkanes_14 ;
+    chem:indices "37,38" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_28 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_28" ;
+    chem:BondAttachment chem:organic_compounds_30 ;
+    chem:Containment chem:alkanes_17,
+        chem:alkanes_18,
+        chem:alkanes_19 ;
+    chem:indices "45,46" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_38 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_38" ;
+    chem:BondAttachment chem:organic_compounds_40 ;
+    chem:Containment chem:alkanes_22,
+        chem:alkanes_23,
+        chem:alkanes_24 ;
+    chem:indices "60,61" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_5 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_5" ;
+    chem:BondAttachment chem:organic_compounds_7 ;
+    chem:Containment chem:alkanes_2,
+        chem:alkanes_3,
+        chem:alkanes_4 ;
+    chem:indices "8,9" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_11 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_11" ;
+    chem:BondAttachment chem:alkanes_10,
+        chem:organic_compounds_13 ;
+    chem:Containment chem:alkanes_6,
+        chem:alkanes_7,
+        chem:alkanes_8 ;
+    chem:indices "15,16" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_13 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_13" ;
+    chem:BondAttachment chem:alkanes_6,
+        chem:organic_compounds_15 ;
+    chem:Containment chem:alkanes_10,
+        chem:alkanes_8,
+        chem:alkanes_9 ;
+    chem:indices "17,18" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_20 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_20" ;
+    chem:BondAttachment chem:alkanes_15,
+        chem:organic_compounds_22 ;
+    chem:Containment chem:alkanes_11,
+        chem:alkanes_12,
+        chem:alkanes_13 ;
+    chem:indices "36,37" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_22 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_22" ;
+    chem:BondAttachment chem:alkanes_11,
+        chem:organic_compounds_24 ;
+    chem:Containment chem:alkanes_13,
+        chem:alkanes_14,
+        chem:alkanes_15 ;
+    chem:indices "38,39" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_27 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_27" ;
+    chem:BondAttachment chem:alkanes_20,
+        chem:organic_compounds_29 ;
+    chem:Containment chem:alkanes_16,
+        chem:alkanes_17,
+        chem:alkanes_18 ;
+    chem:indices "44,45" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_29 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_29" ;
+    chem:BondAttachment chem:alkanes_16,
+        chem:organic_compounds_31 ;
+    chem:Containment chem:alkanes_18,
+        chem:alkanes_19,
+        chem:alkanes_20 ;
+    chem:indices "46,47" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_37 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_37" ;
+    chem:BondAttachment chem:alkanes_25,
+        chem:organic_compounds_39 ;
+    chem:Containment chem:alkanes_21,
+        chem:alkanes_22,
+        chem:alkanes_23 ;
+    chem:indices "59,60" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_39 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_39" ;
+    chem:BondAttachment chem:alkanes_21,
+        chem:organic_compounds_41 ;
+    chem:Containment chem:alkanes_23,
+        chem:alkanes_24,
+        chem:alkanes_25 ;
+    chem:indices "61,62" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_4 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_4" ;
+    chem:BondAttachment chem:alkanes_5,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:alkanes_1,
+        chem:alkanes_2,
+        chem:alkanes_3 ;
+    chem:indices "7,8" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_6 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_6" ;
+    chem:BondAttachment chem:alkanes_1,
+        chem:organic_compounds_8 ;
+    chem:Containment chem:alkanes_3,
+        chem:alkanes_4,
+        chem:alkanes_5 ;
+    chem:indices "9,10" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:thiophenes_4 a chem:thiophenes ;
+    rdfs:label "thiophenes_4" ;
+    chem:BondAttachment chem:thiophenes_5 ;
+    chem:indices "31,32,50,51,71" ;
+    chem:name "thiophenes" ;
+    chem:smiles "c1ccsc1" .
+
+chem:alkanes_12 a chem:alkanes ;
+    rdfs:label "alkanes_12" ;
+    chem:indices "35,36,37,38" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_14 a chem:alkanes ;
+    rdfs:label "alkanes_14" ;
+    chem:indices "37,38,39,40" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_17 a chem:alkanes ;
+    rdfs:label "alkanes_17" ;
+    chem:indices "43,44,45,46" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_19 a chem:alkanes ;
+    rdfs:label "alkanes_19" ;
+    chem:indices "45,46,47,48" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_2 a chem:alkanes ;
+    rdfs:label "alkanes_2" ;
+    chem:indices "6,7,8,9" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_24 a chem:alkanes ;
+    rdfs:label "alkanes_24" ;
+    chem:indices "60,61,62,63" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_4 a chem:alkanes ;
+    rdfs:label "alkanes_4" ;
+    chem:indices "8,9,10,11" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_7 a chem:alkanes ;
+    rdfs:label "alkanes_7" ;
+    chem:indices "14,15,16,17" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_9 a chem:alkanes ;
+    rdfs:label "alkanes_9" ;
+    chem:indices "16,17,18,19" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_1 a chem:alkanes ;
+    rdfs:label "alkanes_1" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1>,
+        chem:alkanes_5 ;
+    chem:indices "5,6,7,8" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_11 a chem:alkanes ;
+    rdfs:label "alkanes_11" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:alkanes_15 ;
+    chem:indices "34,35,36,37" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_16 a chem:alkanes ;
+    rdfs:label "alkanes_16" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:alkanes_20 ;
+    chem:indices "42,43,44,45" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_6 a chem:alkanes ;
+    rdfs:label "alkanes_6" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1>,
+        chem:alkanes_10 ;
+    chem:indices "13,14,15,16" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkyl_tertiary_amines_1 a chem:alkyl_tertiary_amines ;
+    rdfs:label "alkyl_tertiary_amines_1" ;
+    chem:BondAttachment chem:aliphatic_compounds_22,
+        chem:alkanes_22,
+        chem:organic_compounds_36 ;
+    chem:Containment chem:amines_1,
+        chem:amines_2,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amines_1,
+        chem:secondary_amines_2,
+        chem:secondary_amines_3 ;
+    chem:indices "55,56,57,65" ;
+    chem:name "alkyl tertiary amines" ;
+    chem:smiles "CN(C)C" .
+
+chem:organic_compounds_35 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_35" ;
+    chem:BondAttachment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:alkanes_23,
+        chem:amides_1,
+        chem:amides_2,
+        chem:amines_1,
+        chem:amines_3,
+        chem:carbonyl_groups_1,
+        chem:carbonyl_groups_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:organic_compounds_37,
+        chem:primary_amides_1,
+        chem:primary_amides_2,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amides_1,
+        chem:secondary_amides_4,
+        chem:secondary_amines_2 ;
+    chem:Containment chem:alkanes_21 ;
+    chem:indices "57,58" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:tertiary_amides_1 a chem:tertiary_amides ;
+    rdfs:label "tertiary_amides_1" ;
+    chem:BondAttachment chem:aliphatic_compounds_22,
+        chem:alkanes_22,
+        chem:organic_compounds_32,
+        chem:organic_compounds_36 ;
+    chem:Containment chem:aldehydes_1,
+        chem:alkyl_tertiary_amines_1,
+        chem:amides_1,
+        chem:amines_1,
+        chem:amines_2,
+        chem:amines_3,
+        chem:carbonyl_groups_1,
+        chem:functional_groups_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:organic_compounds_33,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amides_1,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amides_1,
+        chem:secondary_amides_2,
+        chem:secondary_amines_1,
+        chem:secondary_amines_2,
+        chem:secondary_amines_3,
+        chem:tertiary_amines_1 ;
+    chem:indices "53,55,56,57,65,66" ;
+    chem:name "tertiary amides" ;
+    chem:smiles "CC(=O)N(C)C" .
+
+chem:tertiary_amides_2 a chem:tertiary_amides ;
+    rdfs:label "tertiary_amides_2" ;
+    chem:BondAttachment chem:aliphatic_compounds_22,
+        chem:alkanes_22,
+        chem:organic_compounds_36,
+        chem:organic_compounds_42 ;
+    chem:Containment chem:aldehydes_2,
+        chem:alkyl_tertiary_amines_1,
+        chem:amides_2,
+        chem:amines_1,
+        chem:amines_2,
+        chem:amines_3,
+        chem:carbonyl_groups_2,
+        chem:functional_groups_1,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:organic_compounds_34,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amides_2,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amides_3,
+        chem:secondary_amides_4,
+        chem:secondary_amines_1,
+        chem:secondary_amines_2,
+        chem:secondary_amines_3,
+        chem:tertiary_amines_1 ;
+    chem:indices "54,55,56,57,65,67" ;
+    chem:name "tertiary amides" ;
+    chem:smiles "CC(=O)N(C)C" .
+
+<http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1> a <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes> ;
+    rdfs:label "3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_1" ;
+    chem:Containment chem:thiophenes_1,
+        chem:thiophenes_2 ;
+    chem:Fusion <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:thiophenes_3 ;
+    chem:indices "1,2,3,4,21,22,23,24,25,27,28" ;
+    chem:name "3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes" ;
+    chem:smiles "c1cc2c(s1)-c1sccc1[SiH2]2" .
+
+<http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1> a <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones> ;
+    rdfs:label "4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones_1" ;
+    chem:BondAttachment <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2>,
+        chem:aliphatic_compounds_21,
+        chem:alkanes_21,
+        chem:organic_compounds_35,
+        chem:thiophenes_4 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:aldehydes_1,
+        chem:aldehydes_2,
+        chem:amides_1,
+        chem:amides_2,
+        chem:amines_1,
+        chem:amines_3,
+        chem:carbonyl_groups_1,
+        chem:carbonyl_groups_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:organic_compounds_33,
+        chem:organic_compounds_34,
+        chem:oxygen_containing_functional_groups_1,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amides_1,
+        chem:primary_amides_2,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amides_1,
+        chem:secondary_amides_4,
+        chem:secondary_amines_2,
+        chem:thiophenes_5 ;
+    chem:indices "52,53,54,55,56,65,66,67,68,70" ;
+    chem:name "4H,5H,6H-thieno[3,4-c]pyrrole-4,6-diones" ;
+    chem:smiles "O=C1NC(=O)c2cscc21" .
+
+chem:aliphatic_compounds_21 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_21" ;
+    chem:BondAttachment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:aliphatic_compounds_25,
+        chem:alkanes_25,
+        chem:amides_1,
+        chem:amides_2,
+        chem:amines_1,
+        chem:amines_3,
+        chem:carbonyl_groups_1,
+        chem:carbonyl_groups_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:organic_compounds_39,
+        chem:primary_amides_1,
+        chem:primary_amides_2,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amides_1,
+        chem:secondary_amides_4,
+        chem:secondary_amines_2 ;
+    chem:Containment chem:organic_compounds_35,
+        chem:organic_compounds_36,
+        chem:organic_compounds_37 ;
+    chem:indices "57,58,59,60" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_22 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_22" ;
+    chem:BondAttachment chem:amines_2,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:organic_compounds_40,
+        chem:primary_amines_2,
+        chem:secondary_amides_2,
+        chem:secondary_amides_3,
+        chem:secondary_amines_1,
+        chem:secondary_amines_3,
+        chem:tertiary_amines_1 ;
+    chem:Containment chem:organic_compounds_36,
+        chem:organic_compounds_37,
+        chem:organic_compounds_38 ;
+    chem:indices "58,59,60,61" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_10 a chem:alkanes ;
+    rdfs:label "alkanes_10" ;
+    chem:indices "17,18,19,20" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_13 a chem:alkanes ;
+    rdfs:label "alkanes_13" ;
+    chem:indices "36,37,38,39" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_15 a chem:alkanes ;
+    rdfs:label "alkanes_15" ;
+    chem:indices "38,39,40,41" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_18 a chem:alkanes ;
+    rdfs:label "alkanes_18" ;
+    chem:indices "44,45,46,47" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_20 a chem:alkanes ;
+    rdfs:label "alkanes_20" ;
+    chem:indices "46,47,48,49" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_23 a chem:alkanes ;
+    rdfs:label "alkanes_23" ;
+    chem:indices "59,60,61,62" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_25 a chem:alkanes ;
+    rdfs:label "alkanes_25" ;
+    chem:indices "61,62,63,64" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_3 a chem:alkanes ;
+    rdfs:label "alkanes_3" ;
+    chem:indices "7,8,9,10" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_5 a chem:alkanes ;
+    rdfs:label "alkanes_5" ;
+    chem:indices "9,10,11,12" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_8 a chem:alkanes ;
+    rdfs:label "alkanes_8" ;
+    chem:indices "15,16,17,18" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:organic_compounds_33 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_33" ;
+    chem:BondAttachment chem:aldehydes_2,
+        chem:amines_1,
+        chem:amines_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:organic_compounds_34,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:secondary_amines_1 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:aldehydes_1,
+        chem:amides_1,
+        chem:carbonyl_groups_1,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amides_1,
+        chem:secondary_amides_1,
+        chem:secondary_amides_2 ;
+    chem:indices "53,65" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_34 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_34" ;
+    chem:BondAttachment chem:aldehydes_1,
+        chem:amines_2,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:organic_compounds_42,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amines_3 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:aldehydes_2,
+        chem:amides_2,
+        chem:carbonyl_groups_2,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amides_2,
+        chem:secondary_amides_3,
+        chem:secondary_amides_4 ;
+    chem:indices "54,55" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_36 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_36" ;
+    chem:BondAttachment chem:alkanes_24,
+        chem:amines_2,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:organic_compounds_38,
+        chem:primary_amines_2,
+        chem:secondary_amides_2,
+        chem:secondary_amides_3,
+        chem:secondary_amines_1,
+        chem:secondary_amines_3,
+        chem:tertiary_amines_1 ;
+    chem:Containment chem:alkanes_21,
+        chem:alkanes_22 ;
+    chem:indices "58,59" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:thiophenes_5 a chem:thiophenes ;
+    rdfs:label "thiophenes_5" ;
+    chem:BondAttachment chem:amines_1,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amines_1,
+        chem:secondary_amines_3 ;
+    chem:indices "52,53,54,68,70" ;
+    chem:name "thiophenes" ;
+    chem:smiles "c1ccsc1" .
+
+<http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2> a <http://example.org/chemistry#3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes> ;
+    rdfs:label "3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes_2" ;
+    chem:BondAttachment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:thiophenes_5 ;
+    chem:Containment chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:Fusion chem:thiophenes_2 ;
+    chem:indices "25,26,27,29,30,31,32,33,50,51,71" ;
+    chem:name "3,11-dithia-7-silatricyclo[6.3.0.0²,⁶]undeca-1(8),2(6),4,9-tetraenes" ;
+    chem:smiles "c1cc2c(s1)-c1sccc1[SiH2]2" .
+
+chem:secondary_amides_2 a chem:secondary_amides ;
+    rdfs:label "secondary_amides_2" ;
+    chem:BondAttachment chem:alkanes_22 ;
+    chem:Containment chem:aldehydes_1,
+        chem:amides_1,
+        chem:amines_2,
+        chem:amines_3,
+        chem:carbonyl_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amides_1,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amines_3 ;
+    chem:indices "53,56,57,65,66" ;
+    chem:name "secondary amides" ;
+    chem:smiles "CNC(C)=O" .
+
+chem:secondary_amides_3 a chem:secondary_amides ;
+    rdfs:label "secondary_amides_3" ;
+    chem:BondAttachment chem:alkanes_22 ;
+    chem:Containment chem:aldehydes_2,
+        chem:amides_2,
+        chem:amines_1,
+        chem:amines_2,
+        chem:carbonyl_groups_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amides_2,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:secondary_amines_1 ;
+    chem:indices "54,55,56,57,67" ;
+    chem:name "secondary amides" ;
+    chem:smiles "CNC(C)=O" .
+
+chem:secondary_amides_1 a chem:secondary_amides ;
+    rdfs:label "secondary_amides_1" ;
+    chem:BondAttachment chem:alkanes_21 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        chem:aldehydes_1,
+        chem:amides_1,
+        chem:amines_1,
+        chem:amines_3,
+        chem:carbonyl_groups_1,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amides_1,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amines_2 ;
+    chem:indices "53,55,56,65,66" ;
+    chem:name "secondary amides" ;
+    chem:smiles "CNC(C)=O" .
+
+chem:secondary_amides_4 a chem:secondary_amides ;
+    rdfs:label "secondary_amides_4" ;
+    chem:BondAttachment chem:alkanes_21 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:aldehydes_2,
+        chem:amides_2,
+        chem:amines_1,
+        chem:amines_3,
+        chem:carbonyl_groups_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amides_2,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amines_2 ;
+    chem:indices "54,55,56,65,67" ;
+    chem:name "secondary amides" ;
+    chem:smiles "CNC(C)=O" .
+
+chem:amides_1 a chem:amides ;
+    rdfs:label "amides_1" ;
+    chem:BondAttachment chem:alkanes_21 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        chem:aldehydes_1,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amines_3 ;
+    chem:indices "53,56,65,66" ;
+    chem:name "amides" ;
+    chem:smiles "CC(N)=O" .
+
+chem:amides_2 a chem:amides ;
+    rdfs:label "amides_2" ;
+    chem:BondAttachment chem:alkanes_21 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:aldehydes_2,
+        chem:amines_1,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amines_1 ;
+    chem:indices "54,55,56,67" ;
+    chem:name "amides" ;
+    chem:smiles "CC(N)=O" .
+
+chem:primary_amides_1 a chem:primary_amides ;
+    rdfs:label "primary_amides_1" ;
+    chem:BondAttachment chem:alkanes_21 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        chem:aldehydes_1,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:oxygen_containing_functional_groups_1,
+        chem:primary_amines_3 ;
+    chem:indices "53,56,65,66" ;
+    chem:name "primary amides" ;
+    chem:smiles "CC(N)=O" .
+
+chem:primary_amides_2 a chem:primary_amides ;
+    rdfs:label "primary_amides_2" ;
+    chem:BondAttachment chem:alkanes_21 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:aldehydes_2,
+        chem:amines_1,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amines_1 ;
+    chem:indices "54,55,56,67" ;
+    chem:name "primary amides" ;
+    chem:smiles "CC(N)=O" .
+
+chem:tertiary_amines_1 a chem:tertiary_amines ;
+    rdfs:label "tertiary_amines_1" ;
+    chem:Containment chem:amines_1,
+        chem:amines_2,
+        chem:amines_3,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amines_1,
+        chem:secondary_amines_2,
+        chem:secondary_amines_3 ;
+    chem:indices "55,56,57,65" ;
+    chem:name "tertiary amines" ;
+    chem:smiles "CN(C)C" .
+
+chem:alkanes_22 a chem:alkanes ;
+    rdfs:label "alkanes_22" ;
+    chem:BondAttachment chem:amines_2,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:primary_amines_2,
+        chem:secondary_amines_1,
+        chem:secondary_amines_3,
+        chem:tertiary_amines_1 ;
+    chem:indices "58,59,60,61" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:carbonyl_groups_1 a chem:carbonyl_groups ;
+    rdfs:label "carbonyl_groups_1" ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        chem:aldehydes_1,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amines_3 ;
+    chem:indices "53,56,65,66" ;
+    chem:name "carbonyl groups" ;
+    chem:smiles "CC(N)=O" .
+
+chem:carbonyl_groups_2 a chem:carbonyl_groups ;
+    rdfs:label "carbonyl_groups_2" ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:aldehydes_2,
+        chem:amines_1,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:primary_amines_1 ;
+    chem:indices "54,55,56,67" ;
+    chem:name "carbonyl groups" ;
+    chem:smiles "CC(N)=O" .
+
+chem:oxygen_containing_functional_groups_1 a chem:oxygen_containing_functional_groups ;
+    rdfs:label "oxygen_containing_functional_groups_1" ;
+    chem:BondAttachment chem:aldehydes_2,
+        chem:amines_1,
+        chem:amines_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:oxygen_containing_functional_groups_2,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:secondary_amines_1 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        chem:carbonyl_groups_1 ;
+    chem:indices "53,65,66" ;
+    chem:name "oxygen containing functional groups" ;
+    chem:smiles "CC=O" .
+
+chem:oxygen_containing_functional_groups_2 a chem:oxygen_containing_functional_groups ;
+    rdfs:label "oxygen_containing_functional_groups_2" ;
+    chem:BondAttachment chem:aldehydes_1,
+        chem:amines_2,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amines_3 ;
+    chem:Containment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:carbonyl_groups_2 ;
+    chem:indices "54,55,67" ;
+    chem:name "oxygen containing functional groups" ;
+    chem:smiles "CC=O" .
+
+<http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1> a <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones> ;
+    rdfs:label "4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1" ;
+    chem:BondAttachment chem:thiophenes_4 ;
+    chem:Containment chem:aldehydes_1,
+        chem:amines_1,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amines_2,
+        chem:thiophenes_5 ;
+    chem:indices "52,53,54,55,56,65,66,68,70" ;
+    chem:name "4H,5H,6H-thieno[3,4-c]pyrrol-4-ones" ;
+    chem:smiles "O=C1NCc2cscc21" .
+
+<http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2> a <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones> ;
+    rdfs:label "4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2" ;
+    chem:BondAttachment chem:thiophenes_4 ;
+    chem:Containment chem:aldehydes_2,
+        chem:amines_1,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amines_2,
+        chem:thiophenes_5 ;
+    chem:indices "52,53,54,55,56,65,67,68,70" ;
+    chem:name "4H,5H,6H-thieno[3,4-c]pyrrol-4-ones" ;
+    chem:smiles "O=C1NCc2cscc21" .
+
+chem:aldehydes_1 a chem:aldehydes ;
+    rdfs:label "aldehydes_1" ;
+    chem:BondAttachment chem:aldehydes_2,
+        chem:amines_1,
+        chem:amines_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:primary_amines_1,
+        chem:primary_amines_2,
+        chem:secondary_amines_1 ;
+    chem:indices "53,65,66" ;
+    chem:name "aldehydes" ;
+    chem:smiles "CC=O" .
+
+chem:aldehydes_2 a chem:aldehydes ;
+    rdfs:label "aldehydes_2" ;
+    chem:BondAttachment chem:amines_2,
+        chem:amines_3,
+        chem:nitrogen_containing_functional_groups_2,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amines_2,
+        chem:primary_amines_3,
+        chem:secondary_amines_3 ;
+    chem:indices "54,55,67" ;
+    chem:name "aldehydes" ;
+    chem:smiles "CC=O" .
+
+chem:alkanes_21 a chem:alkanes ;
+    rdfs:label "alkanes_21" ;
+    chem:BondAttachment <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_1>,
+        <http://example.org/chemistry#4H,5H,6H-thieno[3,4-c]pyrrol-4-ones_2>,
+        chem:alkanes_25,
+        chem:amines_1,
+        chem:amines_3,
+        chem:carbonyl_groups_1,
+        chem:carbonyl_groups_2,
+        chem:nitrogen_containing_functional_groups_1,
+        chem:nitrogen_containing_functional_groups_3,
+        chem:primary_amines_1,
+        chem:primary_amines_3,
+        chem:secondary_amines_2 ;
+    chem:indices "57,58,59,60" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:nitrogen_containing_functional_groups_2 a chem:nitrogen_containing_functional_groups ;
+    rdfs:label "nitrogen_containing_functional_groups_2" ;
+    chem:Containment chem:secondary_amines_1,
+        chem:secondary_amines_3,
+        chem:tertiary_amines_1 ;
+    chem:indices "56,57" ;
+    chem:name "nitrogen containing functional groups" ;
+    chem:smiles "CN" .
+
+chem:secondary_amines_1 a chem:secondary_amines ;
+    rdfs:label "secondary_amines_1" ;
+    chem:Containment chem:primary_amines_1,
+        chem:primary_amines_2 ;
+    chem:indices "55,56,57" ;
+    chem:name "secondary amines" ;
+    chem:smiles "CNC" .
+
+chem:secondary_amines_2 a chem:secondary_amines ;
+    rdfs:label "secondary_amines_2" ;
+    chem:Containment chem:primary_amines_1,
+        chem:primary_amines_3 ;
+    chem:indices "55,56,65" ;
+    chem:name "secondary amines" ;
+    chem:smiles "CNC" .
+
+chem:secondary_amines_3 a chem:secondary_amines ;
+    rdfs:label "secondary_amines_3" ;
+    chem:Containment chem:primary_amines_2,
+        chem:primary_amines_3 ;
+    chem:indices "56,57,65" ;
+    chem:name "secondary amines" ;
+    chem:smiles "CNC" .
+
+chem:amines_2 a chem:amines ;
+    rdfs:label "amines_2" ;
+    chem:Containment chem:secondary_amines_1,
+        chem:secondary_amines_3 ;
+    chem:indices "56,57" ;
+    chem:name "amines" ;
+    chem:smiles "CN" .
+
+chem:primary_amines_2 a chem:primary_amines ;
+    rdfs:label "primary_amines_2" ;
+    chem:indices "56,57" ;
+    chem:name "primary amines" ;
+    chem:smiles "CN" .
+
+chem:aliphatic_compounds a owl:Class ;
+    rdfs:label "aliphatic compounds" .
+
+chem:alkanes a owl:Class ;
+    rdfs:label "alkanes" .
+
+chem:nitrogen_containing_functional_groups_1 a chem:nitrogen_containing_functional_groups ;
+    rdfs:label "nitrogen_containing_functional_groups_1" ;
+    chem:Containment chem:secondary_amines_1,
+        chem:secondary_amines_2,
+        chem:tertiary_amines_1 ;
+    chem:indices "55,56" ;
+    chem:name "nitrogen containing functional groups" ;
+    chem:smiles "CN" .
+
+chem:nitrogen_containing_functional_groups_3 a chem:nitrogen_containing_functional_groups ;
+    rdfs:label "nitrogen_containing_functional_groups_3" ;
+    chem:Containment chem:secondary_amines_2,
+        chem:secondary_amines_3,
+        chem:tertiary_amines_1 ;
+    chem:indices "56,65" ;
+    chem:name "nitrogen containing functional groups" ;
+    chem:smiles "CN" .
+
+chem:amines_1 a chem:amines ;
+    rdfs:label "amines_1" ;
+    chem:Containment chem:secondary_amines_1,
+        chem:secondary_amines_2 ;
+    chem:indices "55,56" ;
+    chem:name "amines" ;
+    chem:smiles "CN" .
+
+chem:amines_3 a chem:amines ;
+    rdfs:label "amines_3" ;
+    chem:Containment chem:secondary_amines_2,
+        chem:secondary_amines_3 ;
+    chem:indices "56,65" ;
+    chem:name "amines" ;
+    chem:smiles "CN" .
+
+chem:primary_amines_1 a chem:primary_amines ;
+    rdfs:label "primary_amines_1" ;
+    chem:indices "55,56" ;
+    chem:name "primary amines" ;
+    chem:smiles "CN" .
+
+chem:primary_amines_3 a chem:primary_amines ;
+    rdfs:label "primary_amines_3" ;
+    chem:indices "56,65" ;
+    chem:name "primary amines" ;
+    chem:smiles "CN" .
+
+chem:compounds a owl:Class ;
+    rdfs:label "compounds" .
+
+chem:organic_compounds a owl:Class ;
+    rdfs:label "organic compounds" .
+

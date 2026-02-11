@@ -1,0 +1,3412 @@
+@prefix chem: <http://example.org/chemistry#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/chemistry#2,6-naphthyridines_1> a <http://example.org/chemistry#2,6-naphthyridines> ;
+    rdfs:label "2,6-naphthyridines_1" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:alcohols_8,
+        chem:primary_alcohols_1,
+        chem:primary_alcohols_4 ;
+    chem:Containment <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:heteroaromatic_compounds_1,
+        chem:heteroaromatic_compounds_2,
+        chem:pyridines_1,
+        chem:pyridines_2 ;
+    chem:indices "8,9,10,11,12,13,74,75,89,90" ;
+    chem:name "2,6-naphthyridines" ;
+    chem:smiles "c1cc2cnccc2cn1" .
+
+chem:AtomAttachment a owl:ObjectProperty ;
+    rdfs:label "AtomAttachment" .
+
+chem:BondAttachment a owl:ObjectProperty ;
+    rdfs:label "BondAttachment" .
+
+chem:Containment a owl:ObjectProperty ;
+    rdfs:label "Containment" .
+
+chem:Fusion a owl:ObjectProperty ;
+    rdfs:label "Fusion" .
+
+chem:compounds_1 a chem:compounds ;
+    rdfs:label "compounds_1" ;
+    chem:indices "0,1" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_15 a chem:compounds ;
+    rdfs:label "compounds_15" ;
+    chem:indices "32,34" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_27 a chem:compounds ;
+    rdfs:label "compounds_27" ;
+    chem:indices "54,55" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_3 a chem:compounds ;
+    rdfs:label "compounds_3" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:aliphatic_compounds_10,
+        chem:aliphatic_compounds_6,
+        chem:alkanes_10,
+        chem:alkanes_6,
+        chem:compounds_11,
+        chem:compounds_6,
+        chem:organic_compounds_11,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:aliphatic_compounds_1,
+        chem:aliphatic_compounds_2,
+        chem:alkanes_1,
+        chem:alkanes_2,
+        chem:primary_alcohols_1 ;
+    chem:indices "15,16" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_39 a chem:compounds ;
+    rdfs:label "compounds_39" ;
+    chem:BondAttachment chem:alcohols_7,
+        chem:aliphatic_compounds_36,
+        chem:aliphatic_compounds_40,
+        chem:alkanes_36,
+        chem:alkanes_40,
+        chem:compounds_42,
+        chem:compounds_47,
+        chem:organic_compounds_42,
+        chem:organic_compounds_47 ;
+    chem:Containment chem:aliphatic_compounds_31,
+        chem:aliphatic_compounds_32,
+        chem:alkanes_31,
+        chem:alkanes_32,
+        chem:primary_alcohols_4 ;
+    chem:indices "77,78" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_4 a chem:compounds ;
+    rdfs:label "compounds_4" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:aliphatic_compounds_10,
+        chem:aliphatic_compounds_8,
+        chem:alkanes_10,
+        chem:alkanes_8,
+        chem:compounds_11,
+        chem:compounds_7,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:organic_compounds_11,
+        chem:organic_compounds_7 ;
+    chem:Containment chem:aliphatic_compounds_1,
+        chem:aliphatic_compounds_3,
+        chem:aliphatic_compounds_5,
+        chem:aliphatic_compounds_7,
+        chem:alkanes_1,
+        chem:alkanes_3,
+        chem:alkanes_5,
+        chem:alkanes_7 ;
+    chem:indices "16,17" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_40 a chem:compounds ;
+    rdfs:label "compounds_40" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:aliphatic_compounds_38,
+        chem:aliphatic_compounds_40,
+        chem:alkanes_38,
+        chem:alkanes_40,
+        chem:compounds_43,
+        chem:compounds_47,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:organic_compounds_43,
+        chem:organic_compounds_47 ;
+    chem:Containment chem:aliphatic_compounds_31,
+        chem:aliphatic_compounds_33,
+        chem:aliphatic_compounds_35,
+        chem:aliphatic_compounds_37,
+        chem:alkanes_31,
+        chem:alkanes_33,
+        chem:alkanes_35,
+        chem:alkanes_37 ;
+    chem:indices "78,79" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_41 a chem:compounds ;
+    rdfs:label "compounds_41" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:aliphatic_compounds_36,
+        chem:alkanes_36,
+        chem:compounds_42,
+        chem:compounds_48,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:organic_compounds_42,
+        chem:organic_compounds_48 ;
+    chem:Containment chem:aliphatic_compounds_32,
+        chem:aliphatic_compounds_34,
+        chem:aliphatic_compounds_35,
+        chem:aliphatic_compounds_37,
+        chem:alkanes_32,
+        chem:alkanes_34,
+        chem:alkanes_35,
+        chem:alkanes_37 ;
+    chem:indices "78,85" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_5 a chem:compounds ;
+    rdfs:label "compounds_5" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:aliphatic_compounds_6,
+        chem:alkanes_6,
+        chem:compounds_12,
+        chem:compounds_6,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:organic_compounds_12,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:aliphatic_compounds_2,
+        chem:aliphatic_compounds_4,
+        chem:aliphatic_compounds_5,
+        chem:aliphatic_compounds_7,
+        chem:alkanes_2,
+        chem:alkanes_4,
+        chem:alkanes_5,
+        chem:alkanes_7 ;
+    chem:indices "16,23" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_1 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_1" ;
+    chem:indices "0,1" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_15 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_15" ;
+    chem:indices "32,34" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_27 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_27" ;
+    chem:indices "54,55" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:phenanthridines_1 a chem:phenanthridines ;
+    rdfs:label "phenanthridines_1" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:alcohols_7,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:primary_alcohols_1,
+        chem:thiophenes_1,
+        chem:thiophenes_2 ;
+    chem:Containment <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:aromatic_compounds_1,
+        chem:aromatic_compounds_2,
+        chem:azecines_1,
+        chem:azecines_3,
+        chem:benzenes_1,
+        chem:benzenes_2,
+        chem:heteroaromatic_compounds_2,
+        chem:isoquinolines_1,
+        chem:pyridines_1,
+        chem:quinolines_1,
+        chem:scaffolds_1,
+        chem:scaffolds_2 ;
+    chem:indices "6,7,8,9,10,11,12,13,27,28,73,74,90,91" ;
+    chem:name "phenanthridines" ;
+    chem:smiles "c1ccc2c(c1)cnc1ccccc12" .
+
+chem:phenanthridines_2 a chem:phenanthridines ;
+    rdfs:label "phenanthridines_2" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:alcohols_8,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:primary_alcohols_4,
+        chem:thiophenes_1,
+        chem:thiophenes_2 ;
+    chem:Containment <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:aromatic_compounds_1,
+        chem:aromatic_compounds_2,
+        chem:azecines_2,
+        chem:azecines_4,
+        chem:benzenes_1,
+        chem:benzenes_2,
+        chem:heteroaromatic_compounds_1,
+        chem:isoquinolines_2,
+        chem:pyridines_2,
+        chem:quinolines_2,
+        chem:scaffolds_1,
+        chem:scaffolds_2 ;
+    chem:indices "6,7,8,9,10,11,27,28,73,74,75,89,90,91" ;
+    chem:name "phenanthridines" ;
+    chem:smiles "c1ccc2c(c1)cnc1ccccc12" .
+
+chem:propoxybenzenes_1 a chem:propoxybenzenes ;
+    rdfs:label "propoxybenzenes_1" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:aliphatic_compounds_18,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_18,
+        chem:alkanes_20,
+        chem:compounds_20,
+        chem:compounds_24,
+        chem:organic_compounds_20,
+        chem:organic_compounds_24,
+        chem:primary_alcohols_3 ;
+    chem:Containment chem:alcohols_3,
+        chem:alcohols_4,
+        chem:aromatic_compounds_3,
+        chem:aromatic_hydroxyls_1,
+        chem:aryl_alkyl_ethers_1,
+        chem:benzenes_3,
+        chem:compounds_16,
+        chem:compounds_17,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2,
+        chem:organic_compounds_16,
+        chem:organic_compounds_17,
+        chem:primary_alcohols_2,
+        chem:scaffolds_3 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,38,39,40,41,51,52,57,71" ;
+    chem:name "propoxybenzenes" ;
+    chem:smiles "CCCOc1ccccc1" .
+
+chem:propoxybenzenes_2 a chem:propoxybenzenes ;
+    rdfs:label "propoxybenzenes_2" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:aliphatic_compounds_16,
+        chem:alkanes_16,
+        chem:compounds_19,
+        chem:compounds_25,
+        chem:organic_compounds_19,
+        chem:organic_compounds_25,
+        chem:primary_alcohols_3 ;
+    chem:Containment chem:alcohols_3,
+        chem:alcohols_4,
+        chem:aromatic_compounds_3,
+        chem:aromatic_hydroxyls_1,
+        chem:aryl_alkyl_ethers_1,
+        chem:benzenes_3,
+        chem:compounds_16,
+        chem:compounds_18,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2,
+        chem:organic_compounds_16,
+        chem:organic_compounds_18,
+        chem:primary_alcohols_2,
+        chem:scaffolds_3 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,38,39,40,47,51,52,57,71" ;
+    chem:name "propoxybenzenes" ;
+    chem:smiles "CCCOc1ccccc1" .
+
+chem:propoxybenzenes_3 a chem:propoxybenzenes ;
+    rdfs:label "propoxybenzenes_3" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:aliphatic_compounds_28,
+        chem:aliphatic_compounds_30,
+        chem:alkanes_28,
+        chem:alkanes_30,
+        chem:compounds_32,
+        chem:compounds_36,
+        chem:organic_compounds_32,
+        chem:organic_compounds_36,
+        chem:primary_alcohols_2 ;
+    chem:Containment chem:alcohols_5,
+        chem:alcohols_6,
+        chem:aromatic_compounds_3,
+        chem:aromatic_hydroxyls_2,
+        chem:aryl_alkyl_ethers_2,
+        chem:benzenes_3,
+        chem:compounds_28,
+        chem:compounds_29,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3,
+        chem:organic_compounds_28,
+        chem:organic_compounds_29,
+        chem:primary_alcohols_3,
+        chem:scaffolds_3 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,51,52,57,58,59,60,61,71" ;
+    chem:name "propoxybenzenes" ;
+    chem:smiles "CCCOc1ccccc1" .
+
+chem:propoxybenzenes_4 a chem:propoxybenzenes ;
+    rdfs:label "propoxybenzenes_4" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:aliphatic_compounds_26,
+        chem:alkanes_26,
+        chem:compounds_31,
+        chem:compounds_37,
+        chem:organic_compounds_31,
+        chem:organic_compounds_37,
+        chem:primary_alcohols_2 ;
+    chem:Containment chem:alcohols_5,
+        chem:alcohols_6,
+        chem:aromatic_compounds_3,
+        chem:aromatic_hydroxyls_2,
+        chem:aryl_alkyl_ethers_2,
+        chem:benzenes_3,
+        chem:compounds_28,
+        chem:compounds_30,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3,
+        chem:organic_compounds_28,
+        chem:organic_compounds_30,
+        chem:primary_alcohols_3,
+        chem:scaffolds_3 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,51,52,57,58,59,60,67,71" ;
+    chem:name "propoxybenzenes" ;
+    chem:smiles "CCCOc1ccccc1" .
+
+chem:toluenes_1 a chem:toluenes ;
+    rdfs:label "toluenes_1" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:aromatic_compounds_2,
+        chem:benzenes_2,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:scaffolds_2,
+        chem:toluenes_2 ;
+    chem:Containment chem:aromatic_compounds_1,
+        chem:benzenes_1,
+        chem:compounds_2,
+        chem:organic_compounds_2,
+        chem:scaffolds_1 ;
+    chem:Fusion chem:azecines_2,
+        chem:azecines_3,
+        chem:heteroaromatic_compounds_1,
+        chem:heteroaromatic_compounds_2,
+        chem:isoquinolines_2,
+        chem:pyridines_1,
+        chem:pyridines_2,
+        chem:quinolines_1 ;
+    chem:indices "5,6,7,8,9,90,91" ;
+    chem:name "toluenes" ;
+    chem:smiles "Cc1ccccc1" .
+
+<http://example.org/chemistry#2,6-naphthyridines> a owl:Class ;
+    rdfs:label "2,6-naphthyridines" .
+
+<http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes> a owl:Class ;
+    rdfs:label "2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes" .
+
+<http://example.org/chemistry#4,10-dithiatricyclo[7.3.0.0³,⁷]dodeca-1,3(7),5,8,11-pentaenes> a owl:Class ;
+    rdfs:label "4,10-dithiatricyclo[7.3.0.0³,⁷]dodeca-1,3(7),5,8,11-pentaenes" .
+
+chem:compounds_10 a chem:compounds ;
+    rdfs:label "compounds_10" ;
+    chem:BondAttachment chem:aliphatic_compounds_6,
+        chem:alkanes_6,
+        chem:organic_compounds_8 ;
+    chem:Containment chem:aliphatic_compounds_9,
+        chem:alkanes_9 ;
+    chem:indices "21,22" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_12 a chem:compounds ;
+    rdfs:label "compounds_12" ;
+    chem:BondAttachment chem:aliphatic_compounds_7,
+        chem:alkanes_7,
+        chem:organic_compounds_5 ;
+    chem:Containment chem:aliphatic_compounds_10,
+        chem:aliphatic_compounds_4,
+        chem:alkanes_10,
+        chem:alkanes_4 ;
+    chem:indices "24,25" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_13 a chem:compounds ;
+    rdfs:label "compounds_13" ;
+    chem:BondAttachment chem:aliphatic_compounds_2,
+        chem:aliphatic_compounds_5,
+        chem:alkanes_2,
+        chem:alkanes_5,
+        chem:organic_compounds_11 ;
+    chem:Containment chem:aliphatic_compounds_10,
+        chem:alkanes_10 ;
+    chem:indices "25,26" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_14 a chem:compounds ;
+    rdfs:label "compounds_14" ;
+    chem:indices "28,29" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_17 a chem:compounds ;
+    rdfs:label "compounds_17" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:aliphatic_compounds_18,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_18,
+        chem:alkanes_20,
+        chem:aryl_alkyl_ethers_1,
+        chem:compounds_20,
+        chem:compounds_24,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2,
+        chem:organic_compounds_20,
+        chem:organic_compounds_24 ;
+    chem:Containment chem:aliphatic_compounds_11,
+        chem:aliphatic_compounds_13,
+        chem:aliphatic_compounds_15,
+        chem:aliphatic_compounds_17,
+        chem:alkanes_11,
+        chem:alkanes_13,
+        chem:alkanes_15,
+        chem:alkanes_17 ;
+    chem:indices "40,41" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_18 a chem:compounds ;
+    rdfs:label "compounds_18" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:aliphatic_compounds_16,
+        chem:alkanes_16,
+        chem:aryl_alkyl_ethers_1,
+        chem:compounds_19,
+        chem:compounds_25,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2,
+        chem:organic_compounds_19,
+        chem:organic_compounds_25 ;
+    chem:Containment chem:aliphatic_compounds_12,
+        chem:aliphatic_compounds_14,
+        chem:aliphatic_compounds_15,
+        chem:aliphatic_compounds_17,
+        chem:alkanes_12,
+        chem:alkanes_14,
+        chem:alkanes_15,
+        chem:alkanes_17 ;
+    chem:indices "40,47" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_2 a chem:compounds ;
+    rdfs:label "compounds_2" ;
+    chem:indices "5,6" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_21 a chem:compounds ;
+    rdfs:label "compounds_21" ;
+    chem:BondAttachment chem:aliphatic_compounds_11,
+        chem:aliphatic_compounds_17,
+        chem:alkanes_11,
+        chem:alkanes_17,
+        chem:compounds_23,
+        chem:organic_compounds_19,
+        chem:organic_compounds_23 ;
+    chem:Containment chem:aliphatic_compounds_16,
+        chem:aliphatic_compounds_18,
+        chem:aliphatic_compounds_19,
+        chem:alkanes_16,
+        chem:alkanes_18,
+        chem:alkanes_19 ;
+    chem:indices "43,44" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_22 a chem:compounds ;
+    rdfs:label "compounds_22" ;
+    chem:BondAttachment chem:aliphatic_compounds_13,
+        chem:alkanes_13,
+        chem:organic_compounds_20 ;
+    chem:Containment chem:aliphatic_compounds_18,
+        chem:aliphatic_compounds_19,
+        chem:alkanes_18,
+        chem:alkanes_19 ;
+    chem:indices "44,45" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_23 a chem:compounds ;
+    rdfs:label "compounds_23" ;
+    chem:BondAttachment chem:aliphatic_compounds_16,
+        chem:alkanes_16,
+        chem:organic_compounds_21 ;
+    chem:Containment chem:aliphatic_compounds_19,
+        chem:alkanes_19 ;
+    chem:indices "45,46" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_26 a chem:compounds ;
+    rdfs:label "compounds_26" ;
+    chem:BondAttachment chem:aliphatic_compounds_12,
+        chem:aliphatic_compounds_15,
+        chem:alkanes_12,
+        chem:alkanes_15,
+        chem:organic_compounds_24 ;
+    chem:Containment chem:aliphatic_compounds_20,
+        chem:alkanes_20 ;
+    chem:indices "49,50" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_29 a chem:compounds ;
+    rdfs:label "compounds_29" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:aliphatic_compounds_28,
+        chem:aliphatic_compounds_30,
+        chem:alkanes_28,
+        chem:alkanes_30,
+        chem:aryl_alkyl_ethers_2,
+        chem:compounds_32,
+        chem:compounds_36,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3,
+        chem:organic_compounds_32,
+        chem:organic_compounds_36 ;
+    chem:Containment chem:aliphatic_compounds_21,
+        chem:aliphatic_compounds_23,
+        chem:aliphatic_compounds_25,
+        chem:aliphatic_compounds_27,
+        chem:alkanes_21,
+        chem:alkanes_23,
+        chem:alkanes_25,
+        chem:alkanes_27 ;
+    chem:indices "60,61" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_30 a chem:compounds ;
+    rdfs:label "compounds_30" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:aliphatic_compounds_26,
+        chem:alkanes_26,
+        chem:aryl_alkyl_ethers_2,
+        chem:compounds_31,
+        chem:compounds_37,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3,
+        chem:organic_compounds_31,
+        chem:organic_compounds_37 ;
+    chem:Containment chem:aliphatic_compounds_22,
+        chem:aliphatic_compounds_24,
+        chem:aliphatic_compounds_25,
+        chem:aliphatic_compounds_27,
+        chem:alkanes_22,
+        chem:alkanes_24,
+        chem:alkanes_25,
+        chem:alkanes_27 ;
+    chem:indices "60,67" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_33 a chem:compounds ;
+    rdfs:label "compounds_33" ;
+    chem:BondAttachment chem:aliphatic_compounds_21,
+        chem:aliphatic_compounds_27,
+        chem:alkanes_21,
+        chem:alkanes_27,
+        chem:compounds_35,
+        chem:organic_compounds_31,
+        chem:organic_compounds_35 ;
+    chem:Containment chem:aliphatic_compounds_26,
+        chem:aliphatic_compounds_28,
+        chem:aliphatic_compounds_29,
+        chem:alkanes_26,
+        chem:alkanes_28,
+        chem:alkanes_29 ;
+    chem:indices "63,64" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_34 a chem:compounds ;
+    rdfs:label "compounds_34" ;
+    chem:BondAttachment chem:aliphatic_compounds_23,
+        chem:alkanes_23,
+        chem:organic_compounds_32 ;
+    chem:Containment chem:aliphatic_compounds_28,
+        chem:aliphatic_compounds_29,
+        chem:alkanes_28,
+        chem:alkanes_29 ;
+    chem:indices "64,65" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_35 a chem:compounds ;
+    rdfs:label "compounds_35" ;
+    chem:BondAttachment chem:aliphatic_compounds_26,
+        chem:alkanes_26,
+        chem:organic_compounds_33 ;
+    chem:Containment chem:aliphatic_compounds_29,
+        chem:alkanes_29 ;
+    chem:indices "65,66" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_38 a chem:compounds ;
+    rdfs:label "compounds_38" ;
+    chem:BondAttachment chem:aliphatic_compounds_22,
+        chem:aliphatic_compounds_25,
+        chem:alkanes_22,
+        chem:alkanes_25,
+        chem:organic_compounds_36 ;
+    chem:Containment chem:aliphatic_compounds_30,
+        chem:alkanes_30 ;
+    chem:indices "69,70" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_43 a chem:compounds ;
+    rdfs:label "compounds_43" ;
+    chem:BondAttachment chem:aliphatic_compounds_35,
+        chem:alkanes_35,
+        chem:compounds_45,
+        chem:organic_compounds_40,
+        chem:organic_compounds_45 ;
+    chem:Containment chem:aliphatic_compounds_33,
+        chem:aliphatic_compounds_36,
+        chem:aliphatic_compounds_38,
+        chem:alkanes_33,
+        chem:alkanes_36,
+        chem:alkanes_38 ;
+    chem:indices "80,81" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_44 a chem:compounds ;
+    rdfs:label "compounds_44" ;
+    chem:BondAttachment chem:aliphatic_compounds_31,
+        chem:aliphatic_compounds_37,
+        chem:alkanes_31,
+        chem:alkanes_37,
+        chem:compounds_46,
+        chem:organic_compounds_42,
+        chem:organic_compounds_46 ;
+    chem:Containment chem:aliphatic_compounds_36,
+        chem:aliphatic_compounds_38,
+        chem:aliphatic_compounds_39,
+        chem:alkanes_36,
+        chem:alkanes_38,
+        chem:alkanes_39 ;
+    chem:indices "81,82" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_45 a chem:compounds ;
+    rdfs:label "compounds_45" ;
+    chem:BondAttachment chem:aliphatic_compounds_33,
+        chem:alkanes_33,
+        chem:organic_compounds_43 ;
+    chem:Containment chem:aliphatic_compounds_38,
+        chem:aliphatic_compounds_39,
+        chem:alkanes_38,
+        chem:alkanes_39 ;
+    chem:indices "82,83" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_46 a chem:compounds ;
+    rdfs:label "compounds_46" ;
+    chem:BondAttachment chem:aliphatic_compounds_36,
+        chem:alkanes_36,
+        chem:organic_compounds_44 ;
+    chem:Containment chem:aliphatic_compounds_39,
+        chem:alkanes_39 ;
+    chem:indices "83,84" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_48 a chem:compounds ;
+    rdfs:label "compounds_48" ;
+    chem:BondAttachment chem:aliphatic_compounds_37,
+        chem:alkanes_37,
+        chem:organic_compounds_41 ;
+    chem:Containment chem:aliphatic_compounds_34,
+        chem:aliphatic_compounds_40,
+        chem:alkanes_34,
+        chem:alkanes_40 ;
+    chem:indices "86,87" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_49 a chem:compounds ;
+    rdfs:label "compounds_49" ;
+    chem:BondAttachment chem:aliphatic_compounds_32,
+        chem:aliphatic_compounds_35,
+        chem:alkanes_32,
+        chem:alkanes_35,
+        chem:organic_compounds_47 ;
+    chem:Containment chem:aliphatic_compounds_40,
+        chem:alkanes_40 ;
+    chem:indices "87,88" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_7 a chem:compounds ;
+    rdfs:label "compounds_7" ;
+    chem:BondAttachment chem:aliphatic_compounds_5,
+        chem:alkanes_5,
+        chem:compounds_9,
+        chem:organic_compounds_4,
+        chem:organic_compounds_9 ;
+    chem:Containment chem:aliphatic_compounds_3,
+        chem:aliphatic_compounds_6,
+        chem:aliphatic_compounds_8,
+        chem:alkanes_3,
+        chem:alkanes_6,
+        chem:alkanes_8 ;
+    chem:indices "18,19" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_8 a chem:compounds ;
+    rdfs:label "compounds_8" ;
+    chem:BondAttachment chem:aliphatic_compounds_1,
+        chem:aliphatic_compounds_7,
+        chem:alkanes_1,
+        chem:alkanes_7,
+        chem:compounds_10,
+        chem:organic_compounds_10,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:aliphatic_compounds_6,
+        chem:aliphatic_compounds_8,
+        chem:aliphatic_compounds_9,
+        chem:alkanes_6,
+        chem:alkanes_8,
+        chem:alkanes_9 ;
+    chem:indices "19,20" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_9 a chem:compounds ;
+    rdfs:label "compounds_9" ;
+    chem:BondAttachment chem:aliphatic_compounds_3,
+        chem:alkanes_3,
+        chem:organic_compounds_7 ;
+    chem:Containment chem:aliphatic_compounds_8,
+        chem:aliphatic_compounds_9,
+        chem:alkanes_8,
+        chem:alkanes_9 ;
+    chem:indices "20,21" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_14 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_14" ;
+    chem:indices "28,29" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_2 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_2" ;
+    chem:indices "5,6" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:toluenes_2 a chem:toluenes ;
+    rdfs:label "toluenes_2" ;
+    chem:BondAttachment chem:alcohols_7,
+        chem:aromatic_compounds_1,
+        chem:benzenes_1,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:scaffolds_1 ;
+    chem:Containment chem:aromatic_compounds_2,
+        chem:benzenes_2,
+        chem:compounds_14,
+        chem:organic_compounds_14,
+        chem:scaffolds_2 ;
+    chem:Fusion chem:azecines_1,
+        chem:azecines_4,
+        chem:heteroaromatic_compounds_1,
+        chem:heteroaromatic_compounds_2,
+        chem:isoquinolines_1,
+        chem:pyridines_1,
+        chem:pyridines_2,
+        chem:quinolines_2 ;
+    chem:indices "10,11,27,28,29,73,74" ;
+    chem:name "toluenes" ;
+    chem:smiles "Cc1ccccc1" .
+
+chem:1-benzazecines a owl:Class ;
+    rdfs:label "1-benzazecines" .
+
+chem:1-benzothiophenes a owl:Class ;
+    rdfs:label "1-benzothiophenes" .
+
+<http://example.org/chemistry#4,10-dithiatricyclo[7.3.0.0³,⁷]dodeca-1,3(7),5,8,11-pentaenes_1> a <http://example.org/chemistry#4,10-dithiatricyclo[7.3.0.0³,⁷]dodeca-1,3(7),5,8,11-pentaenes> ;
+    rdfs:label "4,10-dithiatricyclo[7.3.0.0³,⁷]dodeca-1,3(7),5,8,11-pentaenes_1" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alcohols_6,
+        chem:thiophenes_2 ;
+    chem:Containment chem:1-benzothiophenes_1,
+        chem:1-benzothiophenes_2,
+        chem:aromatic_compounds_3,
+        chem:benzenes_3,
+        chem:scaffolds_3,
+        chem:thionines_1,
+        chem:thionines_2,
+        chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "34,35,36,37,51,52,53,54,56,57,71,72" ;
+    chem:name "4,10-dithiatricyclo[7.3.0.0³,⁷]dodeca-1,3(7),5,8,11-pentaenes" ;
+    chem:smiles "c1cc2cc3sccc3cc2s1" .
+
+chem:aromatic_hydroxyls a owl:Class ;
+    rdfs:label "aromatic hydroxyls" .
+
+chem:aryl_alkyl_ethers a owl:Class ;
+    rdfs:label "aryl alkyl ethers" .
+
+chem:azecines_1 a chem:azecines ;
+    rdfs:label "azecines_1" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:primary_alcohols_1,
+        chem:thiophenes_1 ;
+    chem:Containment chem:1-benzazecines_1,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:aromatic_compounds_1,
+        chem:benzenes_1,
+        chem:heteroaromatic_compounds_2,
+        chem:pyridines_1,
+        chem:scaffolds_1 ;
+    chem:Fusion chem:aromatic_compounds_2,
+        chem:benzenes_2,
+        chem:scaffolds_2 ;
+    chem:indices "6,7,8,9,10,11,12,13,90,91" ;
+    chem:name "azecines" ;
+    chem:smiles "c1ccccncccc1" .
+
+chem:azecines_2 a chem:azecines ;
+    rdfs:label "azecines_2" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:primary_alcohols_4,
+        chem:thiophenes_2 ;
+    chem:Containment chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:aromatic_compounds_2,
+        chem:benzenes_2,
+        chem:heteroaromatic_compounds_1,
+        chem:pyridines_2,
+        chem:scaffolds_2 ;
+    chem:Fusion chem:aromatic_compounds_1,
+        chem:benzenes_1,
+        chem:scaffolds_1 ;
+    chem:indices "8,9,10,11,27,28,73,74,75,89" ;
+    chem:name "azecines" ;
+    chem:smiles "c1ccccncccc1" .
+
+chem:azecines_3 a chem:azecines ;
+    rdfs:label "azecines_3" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:alcohols_7,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:primary_alcohols_1,
+        chem:thiophenes_2 ;
+    chem:Containment chem:1-benzazecines_1,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:aromatic_compounds_2,
+        chem:benzenes_2,
+        chem:heteroaromatic_compounds_2,
+        chem:pyridines_1,
+        chem:scaffolds_2 ;
+    chem:Fusion chem:aromatic_compounds_1,
+        chem:benzenes_1,
+        chem:scaffolds_1 ;
+    chem:indices "9,10,11,12,13,27,28,73,74,90" ;
+    chem:name "azecines" ;
+    chem:smiles "c1ccccncccc1" .
+
+chem:azecines_4 a chem:azecines ;
+    rdfs:label "azecines_4" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:alcohols_8,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:primary_alcohols_4,
+        chem:thiophenes_1 ;
+    chem:Containment chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:aromatic_compounds_1,
+        chem:benzenes_1,
+        chem:heteroaromatic_compounds_1,
+        chem:pyridines_2,
+        chem:scaffolds_1 ;
+    chem:Fusion chem:aromatic_compounds_2,
+        chem:benzenes_2,
+        chem:scaffolds_2 ;
+    chem:indices "6,7,8,9,10,74,75,89,90,91" ;
+    chem:name "azecines" ;
+    chem:smiles "c1ccccncccc1" .
+
+chem:compounds_11 a chem:compounds ;
+    rdfs:label "compounds_11" ;
+    chem:BondAttachment chem:aliphatic_compounds_1,
+        chem:aliphatic_compounds_3,
+        chem:alkanes_1,
+        chem:alkanes_3,
+        chem:compounds_13,
+        chem:organic_compounds_13,
+        chem:organic_compounds_3,
+        chem:organic_compounds_4,
+        chem:primary_alcohols_1 ;
+    chem:Containment chem:aliphatic_compounds_10,
+        chem:aliphatic_compounds_2,
+        chem:aliphatic_compounds_4,
+        chem:aliphatic_compounds_5,
+        chem:alkanes_10,
+        chem:alkanes_2,
+        chem:alkanes_4,
+        chem:alkanes_5 ;
+    chem:indices "23,24" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_16 a chem:compounds ;
+    rdfs:label "compounds_16" ;
+    chem:BondAttachment chem:alcohols_3,
+        chem:aliphatic_compounds_16,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_16,
+        chem:alkanes_20,
+        chem:aromatic_hydroxyls_1,
+        chem:compounds_19,
+        chem:compounds_24,
+        chem:organic_compounds_19,
+        chem:organic_compounds_24 ;
+    chem:Containment chem:aliphatic_compounds_11,
+        chem:aliphatic_compounds_12,
+        chem:alkanes_11,
+        chem:alkanes_12,
+        chem:primary_alcohols_2 ;
+    chem:indices "39,40" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_20 a chem:compounds ;
+    rdfs:label "compounds_20" ;
+    chem:BondAttachment chem:aliphatic_compounds_15,
+        chem:alkanes_15,
+        chem:compounds_22,
+        chem:organic_compounds_17,
+        chem:organic_compounds_22 ;
+    chem:Containment chem:aliphatic_compounds_13,
+        chem:aliphatic_compounds_16,
+        chem:aliphatic_compounds_18,
+        chem:alkanes_13,
+        chem:alkanes_16,
+        chem:alkanes_18 ;
+    chem:indices "42,43" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_25 a chem:compounds ;
+    rdfs:label "compounds_25" ;
+    chem:BondAttachment chem:aliphatic_compounds_17,
+        chem:alkanes_17,
+        chem:organic_compounds_18 ;
+    chem:Containment chem:aliphatic_compounds_14,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_14,
+        chem:alkanes_20 ;
+    chem:indices "48,49" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_28 a chem:compounds ;
+    rdfs:label "compounds_28" ;
+    chem:BondAttachment chem:alcohols_5,
+        chem:aliphatic_compounds_26,
+        chem:aliphatic_compounds_30,
+        chem:alkanes_26,
+        chem:alkanes_30,
+        chem:aromatic_hydroxyls_2,
+        chem:compounds_31,
+        chem:compounds_36,
+        chem:organic_compounds_31,
+        chem:organic_compounds_36 ;
+    chem:Containment chem:aliphatic_compounds_21,
+        chem:aliphatic_compounds_22,
+        chem:alkanes_21,
+        chem:alkanes_22,
+        chem:primary_alcohols_3 ;
+    chem:indices "59,60" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_32 a chem:compounds ;
+    rdfs:label "compounds_32" ;
+    chem:BondAttachment chem:aliphatic_compounds_25,
+        chem:alkanes_25,
+        chem:compounds_34,
+        chem:organic_compounds_29,
+        chem:organic_compounds_34 ;
+    chem:Containment chem:aliphatic_compounds_23,
+        chem:aliphatic_compounds_26,
+        chem:aliphatic_compounds_28,
+        chem:alkanes_23,
+        chem:alkanes_26,
+        chem:alkanes_28 ;
+    chem:indices "62,63" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_37 a chem:compounds ;
+    rdfs:label "compounds_37" ;
+    chem:BondAttachment chem:aliphatic_compounds_27,
+        chem:alkanes_27,
+        chem:organic_compounds_30 ;
+    chem:Containment chem:aliphatic_compounds_24,
+        chem:aliphatic_compounds_30,
+        chem:alkanes_24,
+        chem:alkanes_30 ;
+    chem:indices "68,69" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_42 a chem:compounds ;
+    rdfs:label "compounds_42" ;
+    chem:BondAttachment chem:aliphatic_compounds_32,
+        chem:aliphatic_compounds_34,
+        chem:aliphatic_compounds_39,
+        chem:alkanes_32,
+        chem:alkanes_34,
+        chem:alkanes_39,
+        chem:compounds_44,
+        chem:organic_compounds_39,
+        chem:organic_compounds_41,
+        chem:organic_compounds_44,
+        chem:primary_alcohols_4 ;
+    chem:Containment chem:aliphatic_compounds_31,
+        chem:aliphatic_compounds_33,
+        chem:aliphatic_compounds_36,
+        chem:aliphatic_compounds_37,
+        chem:alkanes_31,
+        chem:alkanes_33,
+        chem:alkanes_36,
+        chem:alkanes_37 ;
+    chem:indices "79,80" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_47 a chem:compounds ;
+    rdfs:label "compounds_47" ;
+    chem:BondAttachment chem:aliphatic_compounds_31,
+        chem:aliphatic_compounds_33,
+        chem:alkanes_31,
+        chem:alkanes_33,
+        chem:compounds_49,
+        chem:organic_compounds_39,
+        chem:organic_compounds_40,
+        chem:organic_compounds_49,
+        chem:primary_alcohols_4 ;
+    chem:Containment chem:aliphatic_compounds_32,
+        chem:aliphatic_compounds_34,
+        chem:aliphatic_compounds_35,
+        chem:aliphatic_compounds_40,
+        chem:alkanes_32,
+        chem:alkanes_34,
+        chem:alkanes_35,
+        chem:alkanes_40 ;
+    chem:indices "85,86" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_6 a chem:compounds ;
+    rdfs:label "compounds_6" ;
+    chem:BondAttachment chem:aliphatic_compounds_2,
+        chem:aliphatic_compounds_4,
+        chem:aliphatic_compounds_9,
+        chem:alkanes_2,
+        chem:alkanes_4,
+        chem:alkanes_9,
+        chem:compounds_8,
+        chem:organic_compounds_3,
+        chem:organic_compounds_5,
+        chem:organic_compounds_8,
+        chem:primary_alcohols_1 ;
+    chem:Containment chem:aliphatic_compounds_1,
+        chem:aliphatic_compounds_3,
+        chem:aliphatic_compounds_6,
+        chem:aliphatic_compounds_7,
+        chem:alkanes_1,
+        chem:alkanes_3,
+        chem:alkanes_6,
+        chem:alkanes_7 ;
+    chem:indices "17,18" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:heteroaromatic_compounds a owl:Class ;
+    rdfs:label "heteroaromatic compounds" .
+
+chem:isoquinolines a owl:Class ;
+    rdfs:label "isoquinolines" .
+
+chem:phenanthridines a owl:Class ;
+    rdfs:label "phenanthridines" .
+
+chem:pyridines a owl:Class ;
+    rdfs:label "pyridines" .
+
+chem:quinolines a owl:Class ;
+    rdfs:label "quinolines" .
+
+chem:thionines a owl:Class ;
+    rdfs:label "thionines" .
+
+chem:toluenes a owl:Class ;
+    rdfs:label "toluenes" .
+
+chem:aromatic_compounds a owl:Class ;
+    rdfs:label "aromatic compounds" .
+
+chem:benzenes a owl:Class ;
+    rdfs:label "benzenes" .
+
+chem:compounds_19 a chem:compounds ;
+    rdfs:label "compounds_19" ;
+    chem:BondAttachment chem:aliphatic_compounds_12,
+        chem:aliphatic_compounds_14,
+        chem:aliphatic_compounds_19,
+        chem:alkanes_12,
+        chem:alkanes_14,
+        chem:alkanes_19,
+        chem:compounds_21,
+        chem:organic_compounds_16,
+        chem:organic_compounds_18,
+        chem:organic_compounds_21,
+        chem:primary_alcohols_2 ;
+    chem:Containment chem:aliphatic_compounds_11,
+        chem:aliphatic_compounds_13,
+        chem:aliphatic_compounds_16,
+        chem:aliphatic_compounds_17,
+        chem:alkanes_11,
+        chem:alkanes_13,
+        chem:alkanes_16,
+        chem:alkanes_17 ;
+    chem:indices "41,42" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_24 a chem:compounds ;
+    rdfs:label "compounds_24" ;
+    chem:BondAttachment chem:aliphatic_compounds_11,
+        chem:aliphatic_compounds_13,
+        chem:alkanes_11,
+        chem:alkanes_13,
+        chem:compounds_26,
+        chem:organic_compounds_16,
+        chem:organic_compounds_17,
+        chem:organic_compounds_26,
+        chem:primary_alcohols_2 ;
+    chem:Containment chem:aliphatic_compounds_12,
+        chem:aliphatic_compounds_14,
+        chem:aliphatic_compounds_15,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_12,
+        chem:alkanes_14,
+        chem:alkanes_15,
+        chem:alkanes_20 ;
+    chem:indices "47,48" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_31 a chem:compounds ;
+    rdfs:label "compounds_31" ;
+    chem:BondAttachment chem:aliphatic_compounds_22,
+        chem:aliphatic_compounds_24,
+        chem:aliphatic_compounds_29,
+        chem:alkanes_22,
+        chem:alkanes_24,
+        chem:alkanes_29,
+        chem:compounds_33,
+        chem:organic_compounds_28,
+        chem:organic_compounds_30,
+        chem:organic_compounds_33,
+        chem:primary_alcohols_3 ;
+    chem:Containment chem:aliphatic_compounds_21,
+        chem:aliphatic_compounds_23,
+        chem:aliphatic_compounds_26,
+        chem:aliphatic_compounds_27,
+        chem:alkanes_21,
+        chem:alkanes_23,
+        chem:alkanes_26,
+        chem:alkanes_27 ;
+    chem:indices "61,62" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:compounds_36 a chem:compounds ;
+    rdfs:label "compounds_36" ;
+    chem:BondAttachment chem:aliphatic_compounds_21,
+        chem:aliphatic_compounds_23,
+        chem:alkanes_21,
+        chem:alkanes_23,
+        chem:compounds_38,
+        chem:organic_compounds_28,
+        chem:organic_compounds_29,
+        chem:organic_compounds_38,
+        chem:primary_alcohols_3 ;
+    chem:Containment chem:aliphatic_compounds_22,
+        chem:aliphatic_compounds_24,
+        chem:aliphatic_compounds_25,
+        chem:aliphatic_compounds_30,
+        chem:alkanes_22,
+        chem:alkanes_24,
+        chem:alkanes_25,
+        chem:alkanes_30 ;
+    chem:indices "67,68" ;
+    chem:name "compounds" ;
+    chem:smiles "CC" .
+
+chem:scaffolds a owl:Class ;
+    rdfs:label "scaffolds" .
+
+chem:aliphatic_compounds_14 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_14" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:aliphatic_compounds_16,
+        chem:alkanes_16,
+        chem:aryl_alkyl_ethers_1,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2,
+        chem:organic_compounds_19 ;
+    chem:Containment chem:organic_compounds_18,
+        chem:organic_compounds_24,
+        chem:organic_compounds_25 ;
+    chem:indices "40,47,48,49" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_24 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_24" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:aliphatic_compounds_26,
+        chem:alkanes_26,
+        chem:aryl_alkyl_ethers_2,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3,
+        chem:organic_compounds_31 ;
+    chem:Containment chem:organic_compounds_30,
+        chem:organic_compounds_36,
+        chem:organic_compounds_37 ;
+    chem:indices "60,67,68,69" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_34 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_34" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:aliphatic_compounds_36,
+        chem:alkanes_36,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:organic_compounds_42 ;
+    chem:Containment chem:organic_compounds_41,
+        chem:organic_compounds_47,
+        chem:organic_compounds_48 ;
+    chem:indices "78,85,86,87" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_4 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_4" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:aliphatic_compounds_6,
+        chem:alkanes_6,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:organic_compounds_11,
+        chem:organic_compounds_12,
+        chem:organic_compounds_5 ;
+    chem:indices "16,23,24,25" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aromatic_hydroxyls_1 a chem:aromatic_hydroxyls ;
+    rdfs:label "aromatic_hydroxyls_1" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:aliphatic_compounds_11,
+        chem:aliphatic_compounds_12,
+        chem:alkanes_11,
+        chem:alkanes_12,
+        chem:organic_compounds_16 ;
+    chem:Containment chem:alcohols_3,
+        chem:aromatic_compounds_3,
+        chem:aryl_alkyl_ethers_1,
+        chem:benzenes_3,
+        chem:scaffolds_3 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,38,51,52,57,71" ;
+    chem:name "aromatic hydroxyls" ;
+    chem:smiles "Oc1ccccc1" .
+
+chem:aromatic_hydroxyls_2 a chem:aromatic_hydroxyls ;
+    rdfs:label "aromatic_hydroxyls_2" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:aliphatic_compounds_21,
+        chem:aliphatic_compounds_22,
+        chem:alkanes_21,
+        chem:alkanes_22,
+        chem:organic_compounds_28 ;
+    chem:Containment chem:alcohols_5,
+        chem:aromatic_compounds_3,
+        chem:aryl_alkyl_ethers_2,
+        chem:benzenes_3,
+        chem:scaffolds_3 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,51,52,57,58,71" ;
+    chem:name "aromatic hydroxyls" ;
+    chem:smiles "Oc1ccccc1" .
+
+chem:azecines a owl:Class ;
+    rdfs:label "azecines" .
+
+chem:dialkyl_ethers a owl:Class ;
+    rdfs:label "dialkyl ethers" .
+
+chem:ethers a owl:Class ;
+    rdfs:label "ethers" .
+
+chem:organic_compounds_10 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_10" ;
+    chem:BondAttachment chem:alkanes_6 ;
+    chem:Containment chem:alkanes_9 ;
+    chem:indices "21,22" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_23 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_23" ;
+    chem:BondAttachment chem:alkanes_16 ;
+    chem:Containment chem:alkanes_19 ;
+    chem:indices "45,46" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_35 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_35" ;
+    chem:BondAttachment chem:alkanes_26 ;
+    chem:Containment chem:alkanes_29 ;
+    chem:indices "65,66" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_46 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_46" ;
+    chem:BondAttachment chem:alkanes_36 ;
+    chem:Containment chem:alkanes_39 ;
+    chem:indices "83,84" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:primary_alcohols a owl:Class ;
+    rdfs:label "primary alcohols" .
+
+chem:propoxybenzenes a owl:Class ;
+    rdfs:label "propoxybenzenes" .
+
+chem:thionines_1 a chem:thionines ;
+    rdfs:label "thionines_1" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alcohols_6,
+        chem:thiophenes_2 ;
+    chem:Containment chem:benzenes_3,
+        chem:scaffolds_3,
+        chem:thiophenes_3 ;
+    chem:Fusion chem:thiophenes_4 ;
+    chem:indices "34,35,36,37,51,52,57,71,72" ;
+    chem:name "thionines" ;
+    chem:smiles "c1ccccsccc1" .
+
+chem:thionines_2 a chem:thionines ;
+    rdfs:label "thionines_2" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alcohols_6 ;
+    chem:Containment chem:benzenes_3,
+        chem:scaffolds_3,
+        chem:thiophenes_4 ;
+    chem:Fusion chem:thiophenes_3 ;
+    chem:indices "36,37,51,52,53,54,56,57,71" ;
+    chem:name "thionines" ;
+    chem:smiles "c1ccccsccc1" .
+
+chem:thiophenes a owl:Class ;
+    rdfs:label "thiophenes" .
+
+chem:aliphatic_compounds_1 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_1" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:aliphatic_compounds_10,
+        chem:aliphatic_compounds_9,
+        chem:alkanes_10,
+        chem:alkanes_9,
+        chem:organic_compounds_11,
+        chem:organic_compounds_8 ;
+    chem:Containment chem:organic_compounds_3,
+        chem:organic_compounds_4,
+        chem:organic_compounds_6 ;
+    chem:indices "15,16,17,18" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_13 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_13" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_20,
+        chem:aryl_alkyl_ethers_1,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2,
+        chem:organic_compounds_22,
+        chem:organic_compounds_24 ;
+    chem:Containment chem:organic_compounds_17,
+        chem:organic_compounds_19,
+        chem:organic_compounds_20 ;
+    chem:indices "40,41,42,43" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_15 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_15" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:aliphatic_compounds_18,
+        chem:alkanes_18,
+        chem:aryl_alkyl_ethers_1,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2,
+        chem:organic_compounds_20,
+        chem:organic_compounds_26 ;
+    chem:Containment chem:organic_compounds_17,
+        chem:organic_compounds_18,
+        chem:organic_compounds_24 ;
+    chem:indices "40,41,47,48" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_17 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_17" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:aliphatic_compounds_19,
+        chem:alkanes_19,
+        chem:aryl_alkyl_ethers_1,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2,
+        chem:organic_compounds_21,
+        chem:organic_compounds_25 ;
+    chem:Containment chem:organic_compounds_17,
+        chem:organic_compounds_18,
+        chem:organic_compounds_19 ;
+    chem:indices "40,41,42,47" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_2 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_2" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:aliphatic_compounds_6,
+        chem:alkanes_6,
+        chem:organic_compounds_13,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:organic_compounds_11,
+        chem:organic_compounds_3,
+        chem:organic_compounds_5 ;
+    chem:indices "15,16,23,24" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_23 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_23" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:aliphatic_compounds_30,
+        chem:alkanes_30,
+        chem:aryl_alkyl_ethers_2,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3,
+        chem:organic_compounds_34,
+        chem:organic_compounds_36 ;
+    chem:Containment chem:organic_compounds_29,
+        chem:organic_compounds_31,
+        chem:organic_compounds_32 ;
+    chem:indices "60,61,62,63" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_25 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_25" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:aliphatic_compounds_28,
+        chem:alkanes_28,
+        chem:aryl_alkyl_ethers_2,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3,
+        chem:organic_compounds_32,
+        chem:organic_compounds_38 ;
+    chem:Containment chem:organic_compounds_29,
+        chem:organic_compounds_30,
+        chem:organic_compounds_36 ;
+    chem:indices "60,61,67,68" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_27 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_27" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:aliphatic_compounds_29,
+        chem:alkanes_29,
+        chem:aryl_alkyl_ethers_2,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3,
+        chem:organic_compounds_33,
+        chem:organic_compounds_37 ;
+    chem:Containment chem:organic_compounds_29,
+        chem:organic_compounds_30,
+        chem:organic_compounds_31 ;
+    chem:indices "60,61,62,67" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_3 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_3" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:aliphatic_compounds_10,
+        chem:alkanes_10,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:organic_compounds_11,
+        chem:organic_compounds_9 ;
+    chem:Containment chem:organic_compounds_4,
+        chem:organic_compounds_6,
+        chem:organic_compounds_7 ;
+    chem:indices "16,17,18,19" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_31 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_31" ;
+    chem:BondAttachment chem:alcohols_7,
+        chem:aliphatic_compounds_39,
+        chem:aliphatic_compounds_40,
+        chem:alkanes_39,
+        chem:alkanes_40,
+        chem:organic_compounds_44,
+        chem:organic_compounds_47 ;
+    chem:Containment chem:organic_compounds_39,
+        chem:organic_compounds_40,
+        chem:organic_compounds_42 ;
+    chem:indices "77,78,79,80" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_32 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_32" ;
+    chem:BondAttachment chem:alcohols_7,
+        chem:aliphatic_compounds_36,
+        chem:alkanes_36,
+        chem:organic_compounds_42,
+        chem:organic_compounds_49 ;
+    chem:Containment chem:organic_compounds_39,
+        chem:organic_compounds_41,
+        chem:organic_compounds_47 ;
+    chem:indices "77,78,85,86" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_33 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_33" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:aliphatic_compounds_40,
+        chem:alkanes_40,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:organic_compounds_45,
+        chem:organic_compounds_47 ;
+    chem:Containment chem:organic_compounds_40,
+        chem:organic_compounds_42,
+        chem:organic_compounds_43 ;
+    chem:indices "78,79,80,81" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_35 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_35" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:aliphatic_compounds_38,
+        chem:alkanes_38,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:organic_compounds_43,
+        chem:organic_compounds_49 ;
+    chem:Containment chem:organic_compounds_40,
+        chem:organic_compounds_41,
+        chem:organic_compounds_47 ;
+    chem:indices "78,79,85,86" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_37 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_37" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:aliphatic_compounds_39,
+        chem:alkanes_39,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:organic_compounds_44,
+        chem:organic_compounds_48 ;
+    chem:Containment chem:organic_compounds_40,
+        chem:organic_compounds_41,
+        chem:organic_compounds_42 ;
+    chem:indices "78,79,80,85" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_38 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_38" ;
+    chem:BondAttachment chem:alkanes_35,
+        chem:organic_compounds_40 ;
+    chem:Containment chem:organic_compounds_43,
+        chem:organic_compounds_44,
+        chem:organic_compounds_45 ;
+    chem:indices "80,81,82,83" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_5 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_5" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:aliphatic_compounds_8,
+        chem:alkanes_8,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:organic_compounds_13,
+        chem:organic_compounds_7 ;
+    chem:Containment chem:organic_compounds_11,
+        chem:organic_compounds_4,
+        chem:organic_compounds_5 ;
+    chem:indices "16,17,23,24" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_7 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_7" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:aliphatic_compounds_9,
+        chem:alkanes_9,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:organic_compounds_12,
+        chem:organic_compounds_8 ;
+    chem:Containment chem:organic_compounds_4,
+        chem:organic_compounds_5,
+        chem:organic_compounds_6 ;
+    chem:indices "16,17,18,23" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_8 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_8" ;
+    chem:BondAttachment chem:alkanes_5,
+        chem:organic_compounds_4 ;
+    chem:Containment chem:organic_compounds_7,
+        chem:organic_compounds_8,
+        chem:organic_compounds_9 ;
+    chem:indices "18,19,20,21" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:organic_compounds_12 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_12" ;
+    chem:BondAttachment chem:alkanes_7 ;
+    chem:Containment chem:alkanes_10,
+        chem:alkanes_4 ;
+    chem:indices "24,25" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_13 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_13" ;
+    chem:BondAttachment chem:alkanes_2,
+        chem:alkanes_5 ;
+    chem:Containment chem:alkanes_10 ;
+    chem:indices "25,26" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_22 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_22" ;
+    chem:BondAttachment chem:alkanes_13 ;
+    chem:Containment chem:alkanes_18,
+        chem:alkanes_19 ;
+    chem:indices "44,45" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_26 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_26" ;
+    chem:BondAttachment chem:alkanes_12,
+        chem:alkanes_15 ;
+    chem:Containment chem:alkanes_20 ;
+    chem:indices "49,50" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_34 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_34" ;
+    chem:BondAttachment chem:alkanes_23 ;
+    chem:Containment chem:alkanes_28,
+        chem:alkanes_29 ;
+    chem:indices "64,65" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_38 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_38" ;
+    chem:BondAttachment chem:alkanes_22,
+        chem:alkanes_25 ;
+    chem:Containment chem:alkanes_30 ;
+    chem:indices "69,70" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_45 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_45" ;
+    chem:BondAttachment chem:alkanes_33 ;
+    chem:Containment chem:alkanes_38,
+        chem:alkanes_39 ;
+    chem:indices "82,83" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_48 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_48" ;
+    chem:BondAttachment chem:alkanes_37 ;
+    chem:Containment chem:alkanes_34,
+        chem:alkanes_40 ;
+    chem:indices "86,87" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_49 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_49" ;
+    chem:BondAttachment chem:alkanes_32,
+        chem:alkanes_35 ;
+    chem:Containment chem:alkanes_40 ;
+    chem:indices "87,88" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_9 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_9" ;
+    chem:BondAttachment chem:alkanes_3 ;
+    chem:Containment chem:alkanes_8,
+        chem:alkanes_9 ;
+    chem:indices "20,21" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:aliphatic_compounds_11 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_11" ;
+    chem:BondAttachment chem:alcohols_3,
+        chem:aliphatic_compounds_19,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_19,
+        chem:alkanes_20,
+        chem:organic_compounds_21,
+        chem:organic_compounds_24 ;
+    chem:Containment chem:organic_compounds_16,
+        chem:organic_compounds_17,
+        chem:organic_compounds_19 ;
+    chem:indices "39,40,41,42" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_12 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_12" ;
+    chem:BondAttachment chem:alcohols_3,
+        chem:aliphatic_compounds_16,
+        chem:alkanes_16,
+        chem:organic_compounds_19,
+        chem:organic_compounds_26 ;
+    chem:Containment chem:organic_compounds_16,
+        chem:organic_compounds_18,
+        chem:organic_compounds_24 ;
+    chem:indices "39,40,47,48" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_18 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_18" ;
+    chem:BondAttachment chem:alkanes_15,
+        chem:organic_compounds_17 ;
+    chem:Containment chem:organic_compounds_20,
+        chem:organic_compounds_21,
+        chem:organic_compounds_22 ;
+    chem:indices "42,43,44,45" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_19 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_19" ;
+    chem:BondAttachment chem:alkanes_11,
+        chem:alkanes_17,
+        chem:organic_compounds_19 ;
+    chem:Containment chem:organic_compounds_21,
+        chem:organic_compounds_22,
+        chem:organic_compounds_23 ;
+    chem:indices "43,44,45,46" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_21 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_21" ;
+    chem:BondAttachment chem:alcohols_5,
+        chem:aliphatic_compounds_29,
+        chem:aliphatic_compounds_30,
+        chem:alkanes_29,
+        chem:alkanes_30,
+        chem:organic_compounds_33,
+        chem:organic_compounds_36 ;
+    chem:Containment chem:organic_compounds_28,
+        chem:organic_compounds_29,
+        chem:organic_compounds_31 ;
+    chem:indices "59,60,61,62" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_22 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_22" ;
+    chem:BondAttachment chem:alcohols_5,
+        chem:aliphatic_compounds_26,
+        chem:alkanes_26,
+        chem:organic_compounds_31,
+        chem:organic_compounds_38 ;
+    chem:Containment chem:organic_compounds_28,
+        chem:organic_compounds_30,
+        chem:organic_compounds_36 ;
+    chem:indices "59,60,67,68" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_28 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_28" ;
+    chem:BondAttachment chem:alkanes_25,
+        chem:organic_compounds_29 ;
+    chem:Containment chem:organic_compounds_32,
+        chem:organic_compounds_33,
+        chem:organic_compounds_34 ;
+    chem:indices "62,63,64,65" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_29 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_29" ;
+    chem:BondAttachment chem:alkanes_21,
+        chem:alkanes_27,
+        chem:organic_compounds_31 ;
+    chem:Containment chem:organic_compounds_33,
+        chem:organic_compounds_34,
+        chem:organic_compounds_35 ;
+    chem:indices "63,64,65,66" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_39 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_39" ;
+    chem:BondAttachment chem:alkanes_31,
+        chem:alkanes_37,
+        chem:organic_compounds_42 ;
+    chem:Containment chem:organic_compounds_44,
+        chem:organic_compounds_45,
+        chem:organic_compounds_46 ;
+    chem:indices "81,82,83,84" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_9 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_9" ;
+    chem:BondAttachment chem:alkanes_1,
+        chem:alkanes_7,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:organic_compounds_10,
+        chem:organic_compounds_8,
+        chem:organic_compounds_9 ;
+    chem:indices "19,20,21,22" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:organic_compounds_25 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_25" ;
+    chem:BondAttachment chem:alkanes_17 ;
+    chem:Containment chem:alkanes_14,
+        chem:alkanes_20 ;
+    chem:indices "48,49" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_37 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_37" ;
+    chem:BondAttachment chem:alkanes_27 ;
+    chem:Containment chem:alkanes_24,
+        chem:alkanes_30 ;
+    chem:indices "68,69" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:heteroaromatic_compounds_1 a chem:heteroaromatic_compounds ;
+    rdfs:label "heteroaromatic_compounds_1" ;
+    chem:BondAttachment chem:alcohols_8 ;
+    chem:Containment chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_2,
+        chem:quinolines_2 ;
+    chem:Fusion chem:aromatic_compounds_1,
+        chem:aromatic_compounds_2,
+        chem:benzenes_1,
+        chem:benzenes_2,
+        chem:heteroaromatic_compounds_2,
+        chem:pyridines_1,
+        chem:scaffolds_1,
+        chem:scaffolds_2 ;
+    chem:indices "8,9,10,74,75,89" ;
+    chem:name "heteroaromatic compounds" ;
+    chem:smiles "c1ccncc1" .
+
+chem:organic_compounds_3 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_3" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:alkanes_10,
+        chem:alkanes_6,
+        chem:organic_compounds_11,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:alkanes_1,
+        chem:alkanes_2 ;
+    chem:indices "15,16" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_39 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_39" ;
+    chem:BondAttachment chem:alcohols_7,
+        chem:alkanes_36,
+        chem:alkanes_40,
+        chem:organic_compounds_42,
+        chem:organic_compounds_47 ;
+    chem:Containment chem:alkanes_31,
+        chem:alkanes_32 ;
+    chem:indices "77,78" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_41 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_41" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:alkanes_36,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:organic_compounds_42,
+        chem:organic_compounds_48 ;
+    chem:Containment chem:alkanes_32,
+        chem:alkanes_34,
+        chem:alkanes_35,
+        chem:alkanes_37 ;
+    chem:indices "78,85" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_43 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_43" ;
+    chem:BondAttachment chem:alkanes_35,
+        chem:organic_compounds_45 ;
+    chem:Containment chem:alkanes_33,
+        chem:alkanes_36,
+        chem:alkanes_38 ;
+    chem:indices "80,81" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_5 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_5" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:alkanes_6,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:organic_compounds_12,
+        chem:organic_compounds_6 ;
+    chem:Containment chem:alkanes_2,
+        chem:alkanes_4,
+        chem:alkanes_5,
+        chem:alkanes_7 ;
+    chem:indices "16,23" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_7 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_7" ;
+    chem:BondAttachment chem:alkanes_5,
+        chem:organic_compounds_9 ;
+    chem:Containment chem:alkanes_3,
+        chem:alkanes_6,
+        chem:alkanes_8 ;
+    chem:indices "18,19" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:primary_alcohols_1 a chem:primary_alcohols ;
+    rdfs:label "primary_alcohols_1" ;
+    chem:BondAttachment chem:1-benzazecines_1,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:aliphatic_compounds_10,
+        chem:aliphatic_compounds_6,
+        chem:alkanes_10,
+        chem:alkanes_6,
+        chem:heteroaromatic_compounds_2,
+        chem:isoquinolines_1,
+        chem:organic_compounds_11,
+        chem:organic_compounds_6,
+        chem:pyridines_1,
+        chem:quinolines_1 ;
+    chem:Containment chem:alcohols_2,
+        chem:organic_compounds_3 ;
+    chem:indices "14,15,16" ;
+    chem:name "primary alcohols" ;
+    chem:smiles "CCO" .
+
+chem:primary_alcohols_2 a chem:primary_alcohols ;
+    rdfs:label "primary_alcohols_2" ;
+    chem:BondAttachment chem:1-benzothiophenes_1,
+        chem:1-benzothiophenes_2,
+        <http://example.org/chemistry#4,10-dithiatricyclo[7.3.0.0³,⁷]dodeca-1,3(7),5,8,11-pentaenes_1>,
+        chem:aliphatic_compounds_16,
+        chem:aliphatic_compounds_20,
+        chem:alkanes_16,
+        chem:alkanes_20,
+        chem:aromatic_compounds_3,
+        chem:aromatic_hydroxyls_2,
+        chem:aryl_alkyl_ethers_2,
+        chem:benzenes_3,
+        chem:organic_compounds_19,
+        chem:organic_compounds_24,
+        chem:scaffolds_3,
+        chem:thionines_1,
+        chem:thionines_2 ;
+    chem:Containment chem:alcohols_4,
+        chem:organic_compounds_16 ;
+    chem:indices "38,39,40" ;
+    chem:name "primary alcohols" ;
+    chem:smiles "CCO" .
+
+chem:primary_alcohols_3 a chem:primary_alcohols ;
+    rdfs:label "primary_alcohols_3" ;
+    chem:BondAttachment chem:1-benzothiophenes_1,
+        chem:1-benzothiophenes_2,
+        <http://example.org/chemistry#4,10-dithiatricyclo[7.3.0.0³,⁷]dodeca-1,3(7),5,8,11-pentaenes_1>,
+        chem:aliphatic_compounds_26,
+        chem:aliphatic_compounds_30,
+        chem:alkanes_26,
+        chem:alkanes_30,
+        chem:aromatic_compounds_3,
+        chem:aromatic_hydroxyls_1,
+        chem:aryl_alkyl_ethers_1,
+        chem:benzenes_3,
+        chem:organic_compounds_31,
+        chem:organic_compounds_36,
+        chem:scaffolds_3,
+        chem:thionines_1,
+        chem:thionines_2 ;
+    chem:Containment chem:alcohols_6,
+        chem:organic_compounds_28 ;
+    chem:indices "58,59,60" ;
+    chem:name "primary alcohols" ;
+    chem:smiles "CCO" .
+
+chem:primary_alcohols_4 a chem:primary_alcohols ;
+    rdfs:label "primary_alcohols_4" ;
+    chem:BondAttachment chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:aliphatic_compounds_36,
+        chem:aliphatic_compounds_40,
+        chem:alkanes_36,
+        chem:alkanes_40,
+        chem:heteroaromatic_compounds_1,
+        chem:isoquinolines_2,
+        chem:organic_compounds_42,
+        chem:organic_compounds_47,
+        chem:pyridines_2,
+        chem:quinolines_2 ;
+    chem:Containment chem:alcohols_8,
+        chem:organic_compounds_39 ;
+    chem:indices "76,77,78" ;
+    chem:name "primary alcohols" ;
+    chem:smiles "CCO" .
+
+chem:alcohols a owl:Class ;
+    rdfs:label "alcohols" .
+
+chem:aliphatic_compounds_10 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_10" ;
+    chem:BondAttachment chem:alkanes_1,
+        chem:alkanes_3,
+        chem:organic_compounds_3,
+        chem:organic_compounds_4 ;
+    chem:Containment chem:organic_compounds_11,
+        chem:organic_compounds_12,
+        chem:organic_compounds_13 ;
+    chem:indices "23,24,25,26" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_40 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_40" ;
+    chem:BondAttachment chem:alkanes_31,
+        chem:alkanes_33,
+        chem:organic_compounds_39,
+        chem:organic_compounds_40 ;
+    chem:Containment chem:organic_compounds_47,
+        chem:organic_compounds_48,
+        chem:organic_compounds_49 ;
+    chem:indices "85,86,87,88" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:heteroaromatic_compounds_2 a chem:heteroaromatic_compounds ;
+    rdfs:label "heteroaromatic_compounds_2" ;
+    chem:BondAttachment chem:alcohols_2 ;
+    chem:Containment chem:1-benzazecines_1,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_1,
+        chem:quinolines_1 ;
+    chem:Fusion chem:aromatic_compounds_1,
+        chem:aromatic_compounds_2,
+        chem:benzenes_1,
+        chem:benzenes_2,
+        chem:pyridines_2,
+        chem:scaffolds_1,
+        chem:scaffolds_2 ;
+    chem:indices "9,10,11,12,13,90" ;
+    chem:name "heteroaromatic compounds" ;
+    chem:smiles "c1ccncc1" .
+
+chem:organic_compounds_18 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_18" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alkanes_16,
+        chem:aryl_alkyl_ethers_1,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2,
+        chem:organic_compounds_19,
+        chem:organic_compounds_25 ;
+    chem:Containment chem:alkanes_12,
+        chem:alkanes_14,
+        chem:alkanes_15,
+        chem:alkanes_17 ;
+    chem:indices "40,47" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_20 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_20" ;
+    chem:BondAttachment chem:alkanes_15,
+        chem:organic_compounds_22 ;
+    chem:Containment chem:alkanes_13,
+        chem:alkanes_16,
+        chem:alkanes_18 ;
+    chem:indices "42,43" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_21 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_21" ;
+    chem:BondAttachment chem:alkanes_11,
+        chem:alkanes_17,
+        chem:organic_compounds_23 ;
+    chem:Containment chem:alkanes_16,
+        chem:alkanes_18,
+        chem:alkanes_19 ;
+    chem:indices "43,44" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_30 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_30" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:alkanes_26,
+        chem:aryl_alkyl_ethers_2,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3,
+        chem:organic_compounds_31,
+        chem:organic_compounds_37 ;
+    chem:Containment chem:alkanes_22,
+        chem:alkanes_24,
+        chem:alkanes_25,
+        chem:alkanes_27 ;
+    chem:indices "60,67" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_32 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_32" ;
+    chem:BondAttachment chem:alkanes_25,
+        chem:organic_compounds_34 ;
+    chem:Containment chem:alkanes_23,
+        chem:alkanes_26,
+        chem:alkanes_28 ;
+    chem:indices "62,63" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_33 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_33" ;
+    chem:BondAttachment chem:alkanes_21,
+        chem:alkanes_27,
+        chem:organic_compounds_35 ;
+    chem:Containment chem:alkanes_26,
+        chem:alkanes_28,
+        chem:alkanes_29 ;
+    chem:indices "63,64" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_4 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_4" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:alkanes_10,
+        chem:alkanes_8,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:organic_compounds_11,
+        chem:organic_compounds_7 ;
+    chem:Containment chem:alkanes_1,
+        chem:alkanes_3,
+        chem:alkanes_5,
+        chem:alkanes_7 ;
+    chem:indices "16,17" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_40 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_40" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:alkanes_38,
+        chem:alkanes_40,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:organic_compounds_43,
+        chem:organic_compounds_47 ;
+    chem:Containment chem:alkanes_31,
+        chem:alkanes_33,
+        chem:alkanes_35,
+        chem:alkanes_37 ;
+    chem:indices "78,79" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_44 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_44" ;
+    chem:BondAttachment chem:alkanes_31,
+        chem:alkanes_37,
+        chem:organic_compounds_46 ;
+    chem:Containment chem:alkanes_36,
+        chem:alkanes_38,
+        chem:alkanes_39 ;
+    chem:indices "81,82" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_8 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_8" ;
+    chem:BondAttachment chem:alkanes_1,
+        chem:alkanes_7,
+        chem:organic_compounds_10 ;
+    chem:Containment chem:alkanes_6,
+        chem:alkanes_8,
+        chem:alkanes_9 ;
+    chem:indices "19,20" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:thiophenes_1 a chem:thiophenes ;
+    rdfs:label "thiophenes_1" ;
+    chem:BondAttachment chem:1-benzazecines_1,
+        chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_1 ;
+    chem:indices "1,2,3,4,5" ;
+    chem:name "thiophenes" ;
+    chem:smiles "c1ccsc1" .
+
+chem:aliphatic_compounds_20 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_20" ;
+    chem:BondAttachment chem:alkanes_11,
+        chem:alkanes_13,
+        chem:organic_compounds_16,
+        chem:organic_compounds_17 ;
+    chem:Containment chem:organic_compounds_24,
+        chem:organic_compounds_25,
+        chem:organic_compounds_26 ;
+    chem:indices "47,48,49,50" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_30 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_30" ;
+    chem:BondAttachment chem:alkanes_21,
+        chem:alkanes_23,
+        chem:organic_compounds_28,
+        chem:organic_compounds_29 ;
+    chem:Containment chem:organic_compounds_36,
+        chem:organic_compounds_37,
+        chem:organic_compounds_38 ;
+    chem:indices "67,68,69,70" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_36 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_36" ;
+    chem:BondAttachment chem:alkanes_32,
+        chem:alkanes_34,
+        chem:organic_compounds_39,
+        chem:organic_compounds_41,
+        chem:organic_compounds_46 ;
+    chem:Containment chem:organic_compounds_42,
+        chem:organic_compounds_43,
+        chem:organic_compounds_44 ;
+    chem:indices "79,80,81,82" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_6 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_6" ;
+    chem:BondAttachment chem:alkanes_2,
+        chem:alkanes_4,
+        chem:organic_compounds_10,
+        chem:organic_compounds_3,
+        chem:organic_compounds_5 ;
+    chem:Containment chem:organic_compounds_6,
+        chem:organic_compounds_7,
+        chem:organic_compounds_8 ;
+    chem:indices "17,18,19,20" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_14 a chem:alkanes ;
+    rdfs:label "alkanes_14" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alkanes_16,
+        chem:aryl_alkyl_ethers_1,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2 ;
+    chem:indices "40,47,48,49" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_24 a chem:alkanes ;
+    rdfs:label "alkanes_24" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:alkanes_26,
+        chem:aryl_alkyl_ethers_2,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3 ;
+    chem:indices "60,67,68,69" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_34 a chem:alkanes ;
+    rdfs:label "alkanes_34" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:alkanes_36,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4 ;
+    chem:indices "78,85,86,87" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_4 a chem:alkanes ;
+    rdfs:label "alkanes_4" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:alkanes_6,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1 ;
+    chem:indices "16,23,24,25" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:aromatic_compounds_3 a chem:aromatic_compounds ;
+    rdfs:label "aromatic_compounds_3" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alcohols_6 ;
+    chem:Containment chem:1-benzothiophenes_1,
+        chem:1-benzothiophenes_2,
+        chem:aryl_alkyl_ethers_1,
+        chem:aryl_alkyl_ethers_2,
+        chem:thionines_1,
+        chem:thionines_2 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,51,52,57,71" ;
+    chem:name "aromatic compounds" ;
+    chem:smiles "c1ccccc1" .
+
+chem:organic_compounds_17 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_17" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alkanes_18,
+        chem:alkanes_20,
+        chem:aryl_alkyl_ethers_1,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2,
+        chem:organic_compounds_20,
+        chem:organic_compounds_24 ;
+    chem:Containment chem:alkanes_11,
+        chem:alkanes_13,
+        chem:alkanes_15,
+        chem:alkanes_17 ;
+    chem:indices "40,41" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_29 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_29" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:alkanes_28,
+        chem:alkanes_30,
+        chem:aryl_alkyl_ethers_2,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3,
+        chem:organic_compounds_32,
+        chem:organic_compounds_36 ;
+    chem:Containment chem:alkanes_21,
+        chem:alkanes_23,
+        chem:alkanes_25,
+        chem:alkanes_27 ;
+    chem:indices "60,61" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:1-benzothiophenes_2 a chem:1-benzothiophenes ;
+    rdfs:label "1-benzothiophenes_2" ;
+    chem:indices "36,37,51,52,53,54,56,57,71" ;
+    chem:name "1-benzothiophenes" ;
+    chem:smiles "c1ccc2sccc2c1" .
+
+chem:aliphatic_compounds_16 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_16" ;
+    chem:BondAttachment chem:alkanes_12,
+        chem:alkanes_14,
+        chem:organic_compounds_16,
+        chem:organic_compounds_18,
+        chem:organic_compounds_23 ;
+    chem:Containment chem:organic_compounds_19,
+        chem:organic_compounds_20,
+        chem:organic_compounds_21 ;
+    chem:indices "41,42,43,44" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:aliphatic_compounds_26 a chem:aliphatic_compounds ;
+    rdfs:label "aliphatic_compounds_26" ;
+    chem:BondAttachment chem:alkanes_22,
+        chem:alkanes_24,
+        chem:organic_compounds_28,
+        chem:organic_compounds_30,
+        chem:organic_compounds_35 ;
+    chem:Containment chem:organic_compounds_31,
+        chem:organic_compounds_32,
+        chem:organic_compounds_33 ;
+    chem:indices "61,62,63,64" ;
+    chem:name "aliphatic compounds" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_38 a chem:alkanes ;
+    rdfs:label "alkanes_38" ;
+    chem:indices "80,81,82,83" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_8 a chem:alkanes ;
+    rdfs:label "alkanes_8" ;
+    chem:indices "18,19,20,21" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:aromatic_compounds_1 a chem:aromatic_compounds ;
+    rdfs:label "aromatic_compounds_1" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:aromatic_compounds_2,
+        chem:benzenes_2,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1,
+        chem:scaffolds_2,
+        chem:thiophenes_1 ;
+    chem:Containment chem:1-benzazecines_1,
+        chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_1,
+        chem:quinolines_2 ;
+    chem:Fusion chem:isoquinolines_2,
+        chem:pyridines_1,
+        chem:pyridines_2,
+        chem:quinolines_1 ;
+    chem:indices "6,7,8,9,90,91" ;
+    chem:name "aromatic compounds" ;
+    chem:smiles "c1ccccc1" .
+
+chem:organic_compounds_16 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_16" ;
+    chem:BondAttachment chem:alcohols_3,
+        chem:alkanes_16,
+        chem:alkanes_20,
+        chem:organic_compounds_19,
+        chem:organic_compounds_24 ;
+    chem:Containment chem:alkanes_11,
+        chem:alkanes_12 ;
+    chem:indices "39,40" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_28 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_28" ;
+    chem:BondAttachment chem:alcohols_5,
+        chem:alkanes_26,
+        chem:alkanes_30,
+        chem:organic_compounds_31,
+        chem:organic_compounds_36 ;
+    chem:Containment chem:alkanes_21,
+        chem:alkanes_22 ;
+    chem:indices "59,60" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:thiophenes_2 a chem:thiophenes ;
+    rdfs:label "thiophenes_2" ;
+    chem:BondAttachment chem:1-benzazecines_1,
+        chem:1-benzazecines_2,
+        chem:1-benzothiophenes_1,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_2,
+        chem:thiophenes_3 ;
+    chem:indices "29,30,31,32,33" ;
+    chem:name "thiophenes" ;
+    chem:smiles "c1ccsc1" .
+
+chem:1-benzothiophenes_1 a chem:1-benzothiophenes ;
+    rdfs:label "1-benzothiophenes_1" ;
+    chem:indices "34,35,36,37,51,52,57,71,72" ;
+    chem:name "1-benzothiophenes" ;
+    chem:smiles "c1ccc2sccc2c1" .
+
+chem:alkanes_13 a chem:alkanes ;
+    rdfs:label "alkanes_13" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alkanes_20,
+        chem:aryl_alkyl_ethers_1,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2 ;
+    chem:indices "40,41,42,43" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_15 a chem:alkanes ;
+    rdfs:label "alkanes_15" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alkanes_18,
+        chem:aryl_alkyl_ethers_1,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2 ;
+    chem:indices "40,41,47,48" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_17 a chem:alkanes ;
+    rdfs:label "alkanes_17" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alkanes_19,
+        chem:aryl_alkyl_ethers_1,
+        chem:dialkyl_ethers_2,
+        chem:ethers_2 ;
+    chem:indices "40,41,42,47" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_18 a chem:alkanes ;
+    rdfs:label "alkanes_18" ;
+    chem:indices "42,43,44,45" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_2 a chem:alkanes ;
+    rdfs:label "alkanes_2" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:alkanes_6 ;
+    chem:indices "15,16,23,24" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_23 a chem:alkanes ;
+    rdfs:label "alkanes_23" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:alkanes_30,
+        chem:aryl_alkyl_ethers_2,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3 ;
+    chem:indices "60,61,62,63" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_25 a chem:alkanes ;
+    rdfs:label "alkanes_25" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:alkanes_28,
+        chem:aryl_alkyl_ethers_2,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3 ;
+    chem:indices "60,61,67,68" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_27 a chem:alkanes ;
+    rdfs:label "alkanes_27" ;
+    chem:BondAttachment chem:alcohols_6,
+        chem:alkanes_29,
+        chem:aryl_alkyl_ethers_2,
+        chem:dialkyl_ethers_3,
+        chem:ethers_3 ;
+    chem:indices "60,61,62,67" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_28 a chem:alkanes ;
+    rdfs:label "alkanes_28" ;
+    chem:indices "62,63,64,65" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_3 a chem:alkanes ;
+    rdfs:label "alkanes_3" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:alkanes_10,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1 ;
+    chem:indices "16,17,18,19" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_32 a chem:alkanes ;
+    rdfs:label "alkanes_32" ;
+    chem:BondAttachment chem:alcohols_7,
+        chem:alkanes_36 ;
+    chem:indices "77,78,85,86" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_33 a chem:alkanes ;
+    rdfs:label "alkanes_33" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:alkanes_40,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4 ;
+    chem:indices "78,79,80,81" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_35 a chem:alkanes ;
+    rdfs:label "alkanes_35" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:alkanes_38,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4 ;
+    chem:indices "78,79,85,86" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_37 a chem:alkanes ;
+    rdfs:label "alkanes_37" ;
+    chem:BondAttachment chem:alcohols_8,
+        chem:alkanes_39,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4 ;
+    chem:indices "78,79,80,85" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_5 a chem:alkanes ;
+    rdfs:label "alkanes_5" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:alkanes_8,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1 ;
+    chem:indices "16,17,23,24" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_7 a chem:alkanes ;
+    rdfs:label "alkanes_7" ;
+    chem:BondAttachment chem:alcohols_2,
+        chem:alkanes_9,
+        chem:dialkyl_ethers_1,
+        chem:ethers_1 ;
+    chem:indices "16,17,18,23" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:aromatic_compounds_2 a chem:aromatic_compounds ;
+    rdfs:label "aromatic_compounds_2" ;
+    chem:BondAttachment chem:alcohols_7,
+        chem:benzenes_1,
+        chem:dialkyl_ethers_4,
+        chem:ethers_4,
+        chem:scaffolds_1,
+        chem:thiophenes_2 ;
+    chem:Containment chem:1-benzazecines_1,
+        chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_2,
+        chem:quinolines_1 ;
+    chem:Fusion chem:isoquinolines_1,
+        chem:pyridines_1,
+        chem:pyridines_2,
+        chem:quinolines_2 ;
+    chem:indices "10,11,27,28,73,74" ;
+    chem:name "aromatic compounds" ;
+    chem:smiles "c1ccccc1" .
+
+chem:alcohols_3 a chem:alcohols ;
+    rdfs:label "alcohols_3" ;
+    chem:BondAttachment chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "37,38" ;
+    chem:name "alcohols" ;
+    chem:smiles "CO" .
+
+chem:alcohols_5 a chem:alcohols ;
+    rdfs:label "alcohols_5" ;
+    chem:BondAttachment chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "57,58" ;
+    chem:name "alcohols" ;
+    chem:smiles "CO" .
+
+chem:alkanes_1 a chem:alkanes ;
+    rdfs:label "alkanes_1" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:alkanes_10,
+        chem:alkanes_9 ;
+    chem:indices "15,16,17,18" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_12 a chem:alkanes ;
+    rdfs:label "alkanes_12" ;
+    chem:BondAttachment chem:alcohols_3,
+        chem:alkanes_16 ;
+    chem:indices "39,40,47,48" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_19 a chem:alkanes ;
+    rdfs:label "alkanes_19" ;
+    chem:indices "43,44,45,46" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_22 a chem:alkanes ;
+    rdfs:label "alkanes_22" ;
+    chem:BondAttachment chem:alcohols_5,
+        chem:alkanes_26 ;
+    chem:indices "59,60,67,68" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_29 a chem:alkanes ;
+    rdfs:label "alkanes_29" ;
+    chem:indices "63,64,65,66" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_31 a chem:alkanes ;
+    rdfs:label "alkanes_31" ;
+    chem:BondAttachment chem:alcohols_7,
+        chem:alkanes_39,
+        chem:alkanes_40 ;
+    chem:indices "77,78,79,80" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_39 a chem:alkanes ;
+    rdfs:label "alkanes_39" ;
+    chem:indices "81,82,83,84" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_9 a chem:alkanes ;
+    rdfs:label "alkanes_9" ;
+    chem:indices "19,20,21,22" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:organic_compounds_11 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_11" ;
+    chem:BondAttachment chem:alkanes_1,
+        chem:alkanes_3,
+        chem:organic_compounds_13 ;
+    chem:Containment chem:alkanes_10,
+        chem:alkanes_2,
+        chem:alkanes_4,
+        chem:alkanes_5 ;
+    chem:indices "23,24" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_47 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_47" ;
+    chem:BondAttachment chem:alkanes_31,
+        chem:alkanes_33,
+        chem:organic_compounds_49 ;
+    chem:Containment chem:alkanes_32,
+        chem:alkanes_34,
+        chem:alkanes_35,
+        chem:alkanes_40 ;
+    chem:indices "85,86" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:quinolines_1 a chem:quinolines ;
+    rdfs:label "quinolines_1" ;
+    chem:BondAttachment chem:thiophenes_2 ;
+    chem:Containment chem:1-benzazecines_1,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:benzenes_2,
+        chem:pyridines_1 ;
+    chem:Fusion chem:benzenes_1 ;
+    chem:indices "9,10,11,12,13,27,28,73,74,90" ;
+    chem:name "quinolines" ;
+    chem:smiles "c1ccc2ncccc2c1" .
+
+chem:quinolines_2 a chem:quinolines ;
+    rdfs:label "quinolines_2" ;
+    chem:BondAttachment chem:thiophenes_1 ;
+    chem:Containment chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:benzenes_1,
+        chem:pyridines_2 ;
+    chem:Fusion chem:benzenes_2 ;
+    chem:indices "6,7,8,9,10,74,75,89,90,91" ;
+    chem:name "quinolines" ;
+    chem:smiles "c1ccc2ncccc2c1" .
+
+chem:alcohols_1 a chem:alcohols ;
+    rdfs:label "alcohols_1" ;
+    chem:BondAttachment chem:1-benzazecines_2,
+        chem:benzenes_1,
+        chem:quinolines_2 ;
+    chem:indices "13,14" ;
+    chem:name "alcohols" ;
+    chem:smiles "CO" .
+
+chem:alcohols_7 a chem:alcohols ;
+    rdfs:label "alcohols_7" ;
+    chem:BondAttachment chem:1-benzazecines_1,
+        chem:benzenes_2,
+        chem:quinolines_1 ;
+    chem:indices "75,76" ;
+    chem:name "alcohols" ;
+    chem:smiles "CO" .
+
+chem:alkanes_11 a chem:alkanes ;
+    rdfs:label "alkanes_11" ;
+    chem:BondAttachment chem:alcohols_3,
+        chem:alkanes_19,
+        chem:alkanes_20 ;
+    chem:indices "39,40,41,42" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_21 a chem:alkanes ;
+    rdfs:label "alkanes_21" ;
+    chem:BondAttachment chem:alcohols_5,
+        chem:alkanes_29,
+        chem:alkanes_30 ;
+    chem:indices "59,60,61,62" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:isoquinolines_1 a chem:isoquinolines ;
+    rdfs:label "isoquinolines_1" ;
+    chem:Containment chem:1-benzazecines_1,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1> ;
+    chem:indices "6,7,8,9,10,11,12,13,90,91" ;
+    chem:name "isoquinolines" ;
+    chem:smiles "c1ccc2cnccc2c1" .
+
+chem:isoquinolines_2 a chem:isoquinolines ;
+    rdfs:label "isoquinolines_2" ;
+    chem:Containment chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1> ;
+    chem:indices "8,9,10,11,27,28,73,74,75,89" ;
+    chem:name "isoquinolines" ;
+    chem:smiles "c1ccc2cnccc2c1" .
+
+chem:organic_compounds_24 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_24" ;
+    chem:BondAttachment chem:alkanes_11,
+        chem:alkanes_13,
+        chem:organic_compounds_26 ;
+    chem:Containment chem:alkanes_12,
+        chem:alkanes_14,
+        chem:alkanes_15,
+        chem:alkanes_20 ;
+    chem:indices "47,48" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_36 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_36" ;
+    chem:BondAttachment chem:alkanes_21,
+        chem:alkanes_23,
+        chem:organic_compounds_38 ;
+    chem:Containment chem:alkanes_22,
+        chem:alkanes_24,
+        chem:alkanes_25,
+        chem:alkanes_30 ;
+    chem:indices "67,68" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_42 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_42" ;
+    chem:BondAttachment chem:alkanes_32,
+        chem:alkanes_34,
+        chem:alkanes_39,
+        chem:organic_compounds_44 ;
+    chem:Containment chem:alkanes_31,
+        chem:alkanes_33,
+        chem:alkanes_36,
+        chem:alkanes_37 ;
+    chem:indices "79,80" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_6 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_6" ;
+    chem:BondAttachment chem:alkanes_2,
+        chem:alkanes_4,
+        chem:alkanes_9,
+        chem:organic_compounds_8 ;
+    chem:Containment chem:alkanes_1,
+        chem:alkanes_3,
+        chem:alkanes_6,
+        chem:alkanes_7 ;
+    chem:indices "17,18" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:scaffolds_1 a chem:scaffolds ;
+    rdfs:label "scaffolds_1" ;
+    chem:BondAttachment chem:alcohols_1,
+        chem:benzenes_2,
+        chem:scaffolds_2,
+        chem:thiophenes_1 ;
+    chem:Containment chem:1-benzazecines_1,
+        chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_1,
+        chem:quinolines_2 ;
+    chem:Fusion chem:isoquinolines_2,
+        chem:pyridines_1,
+        chem:pyridines_2,
+        chem:quinolines_1 ;
+    chem:indices "6,7,8,9,90,91" ;
+    chem:name "scaffolds" ;
+    chem:smiles "c1ccccc1" .
+
+chem:scaffolds_3 a chem:scaffolds ;
+    rdfs:label "scaffolds_3" ;
+    chem:BondAttachment chem:alcohols_4,
+        chem:alcohols_6 ;
+    chem:Containment chem:1-benzothiophenes_1,
+        chem:1-benzothiophenes_2 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,51,52,57,71" ;
+    chem:name "scaffolds" ;
+    chem:smiles "c1ccccc1" .
+
+chem:dialkyl_ethers_2 a chem:dialkyl_ethers ;
+    rdfs:label "dialkyl_ethers_2" ;
+    chem:BondAttachment chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:Containment chem:alcohols_3,
+        chem:alcohols_4,
+        chem:aryl_alkyl_ethers_1 ;
+    chem:indices "37,38,39" ;
+    chem:name "dialkyl ethers" ;
+    chem:smiles "COC" .
+
+chem:dialkyl_ethers_3 a chem:dialkyl_ethers ;
+    rdfs:label "dialkyl_ethers_3" ;
+    chem:BondAttachment chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:Containment chem:alcohols_5,
+        chem:alcohols_6,
+        chem:aryl_alkyl_ethers_2 ;
+    chem:indices "57,58,59" ;
+    chem:name "dialkyl ethers" ;
+    chem:smiles "COC" .
+
+chem:ethers_2 a chem:ethers ;
+    rdfs:label "ethers_2" ;
+    chem:BondAttachment chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:Containment chem:alcohols_3,
+        chem:alcohols_4,
+        chem:aryl_alkyl_ethers_1 ;
+    chem:indices "37,38,39" ;
+    chem:name "ethers" ;
+    chem:smiles "COC" .
+
+chem:ethers_3 a chem:ethers ;
+    rdfs:label "ethers_3" ;
+    chem:BondAttachment chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:Containment chem:alcohols_5,
+        chem:alcohols_6,
+        chem:aryl_alkyl_ethers_2 ;
+    chem:indices "57,58,59" ;
+    chem:name "ethers" ;
+    chem:smiles "COC" .
+
+chem:organic_compounds_19 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_19" ;
+    chem:BondAttachment chem:alkanes_12,
+        chem:alkanes_14,
+        chem:alkanes_19,
+        chem:organic_compounds_21 ;
+    chem:Containment chem:alkanes_11,
+        chem:alkanes_13,
+        chem:alkanes_16,
+        chem:alkanes_17 ;
+    chem:indices "41,42" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:organic_compounds_31 a chem:organic_compounds ;
+    rdfs:label "organic_compounds_31" ;
+    chem:BondAttachment chem:alkanes_22,
+        chem:alkanes_24,
+        chem:alkanes_29,
+        chem:organic_compounds_33 ;
+    chem:Containment chem:alkanes_21,
+        chem:alkanes_23,
+        chem:alkanes_26,
+        chem:alkanes_27 ;
+    chem:indices "61,62" ;
+    chem:name "organic compounds" ;
+    chem:smiles "CC" .
+
+chem:pyridines_1 a chem:pyridines ;
+    rdfs:label "pyridines_1" ;
+    chem:Containment chem:1-benzazecines_1,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_1 ;
+    chem:Fusion chem:benzenes_1,
+        chem:benzenes_2,
+        chem:pyridines_2 ;
+    chem:indices "9,10,11,12,13,90" ;
+    chem:name "pyridines" ;
+    chem:smiles "c1ccncc1" .
+
+chem:scaffolds_2 a chem:scaffolds ;
+    rdfs:label "scaffolds_2" ;
+    chem:BondAttachment chem:alcohols_7,
+        chem:benzenes_1,
+        chem:thiophenes_2 ;
+    chem:Containment chem:1-benzazecines_1,
+        chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_2,
+        chem:quinolines_1 ;
+    chem:Fusion chem:isoquinolines_1,
+        chem:pyridines_1,
+        chem:pyridines_2,
+        chem:quinolines_2 ;
+    chem:indices "10,11,27,28,73,74" ;
+    chem:name "scaffolds" ;
+    chem:smiles "c1ccccc1" .
+
+chem:alkanes_10 a chem:alkanes ;
+    rdfs:label "alkanes_10" ;
+    chem:indices "23,24,25,26" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_40 a chem:alkanes ;
+    rdfs:label "alkanes_40" ;
+    chem:indices "85,86,87,88" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:benzenes_3 a chem:benzenes ;
+    rdfs:label "benzenes_3" ;
+    chem:Containment chem:1-benzothiophenes_1,
+        chem:1-benzothiophenes_2 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,51,52,57,71" ;
+    chem:name "benzenes" ;
+    chem:smiles "c1ccccc1" .
+
+chem:pyridines_2 a chem:pyridines ;
+    rdfs:label "pyridines_2" ;
+    chem:Containment chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_2 ;
+    chem:Fusion chem:benzenes_1,
+        chem:benzenes_2 ;
+    chem:indices "8,9,10,74,75,89" ;
+    chem:name "pyridines" ;
+    chem:smiles "c1ccncc1" .
+
+chem:alkanes_20 a chem:alkanes ;
+    rdfs:label "alkanes_20" ;
+    chem:indices "47,48,49,50" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_30 a chem:alkanes ;
+    rdfs:label "alkanes_30" ;
+    chem:indices "67,68,69,70" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:dialkyl_ethers_1 a chem:dialkyl_ethers ;
+    rdfs:label "dialkyl_ethers_1" ;
+    chem:BondAttachment chem:1-benzazecines_2,
+        chem:benzenes_1,
+        chem:quinolines_2,
+        chem:scaffolds_1 ;
+    chem:Containment chem:alcohols_1,
+        chem:alcohols_2 ;
+    chem:indices "13,14,15" ;
+    chem:name "dialkyl ethers" ;
+    chem:smiles "COC" .
+
+chem:dialkyl_ethers_4 a chem:dialkyl_ethers ;
+    rdfs:label "dialkyl_ethers_4" ;
+    chem:BondAttachment chem:1-benzazecines_1,
+        chem:benzenes_2,
+        chem:quinolines_1,
+        chem:scaffolds_2 ;
+    chem:Containment chem:alcohols_7,
+        chem:alcohols_8 ;
+    chem:indices "75,76,77" ;
+    chem:name "dialkyl ethers" ;
+    chem:smiles "COC" .
+
+chem:ethers_1 a chem:ethers ;
+    rdfs:label "ethers_1" ;
+    chem:BondAttachment chem:1-benzazecines_2,
+        chem:benzenes_1,
+        chem:quinolines_2,
+        chem:scaffolds_1 ;
+    chem:Containment chem:alcohols_1,
+        chem:alcohols_2 ;
+    chem:indices "13,14,15" ;
+    chem:name "ethers" ;
+    chem:smiles "COC" .
+
+chem:ethers_4 a chem:ethers ;
+    rdfs:label "ethers_4" ;
+    chem:BondAttachment chem:1-benzazecines_1,
+        chem:benzenes_2,
+        chem:quinolines_1,
+        chem:scaffolds_2 ;
+    chem:Containment chem:alcohols_7,
+        chem:alcohols_8 ;
+    chem:indices "75,76,77" ;
+    chem:name "ethers" ;
+    chem:smiles "COC" .
+
+chem:alkanes_36 a chem:alkanes ;
+    rdfs:label "alkanes_36" ;
+    chem:indices "79,80,81,82" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_6 a chem:alkanes ;
+    rdfs:label "alkanes_6" ;
+    chem:indices "17,18,19,20" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_16 a chem:alkanes ;
+    rdfs:label "alkanes_16" ;
+    chem:indices "41,42,43,44" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:alkanes_26 a chem:alkanes ;
+    rdfs:label "alkanes_26" ;
+    chem:indices "61,62,63,64" ;
+    chem:name "alkanes" ;
+    chem:smiles "CCCC" .
+
+chem:aryl_alkyl_ethers_1 a chem:aryl_alkyl_ethers ;
+    rdfs:label "aryl_alkyl_ethers_1" ;
+    chem:BondAttachment chem:alcohols_6 ;
+    chem:Containment chem:alcohols_3,
+        chem:alcohols_4,
+        chem:benzenes_3,
+        chem:scaffolds_3 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,38,39,51,52,57,71" ;
+    chem:name "aryl alkyl ethers" ;
+    chem:smiles "COc1ccccc1" .
+
+chem:aryl_alkyl_ethers_2 a chem:aryl_alkyl_ethers ;
+    rdfs:label "aryl_alkyl_ethers_2" ;
+    chem:BondAttachment chem:alcohols_4 ;
+    chem:Containment chem:alcohols_5,
+        chem:alcohols_6,
+        chem:benzenes_3,
+        chem:scaffolds_3 ;
+    chem:Fusion chem:thiophenes_3,
+        chem:thiophenes_4 ;
+    chem:indices "36,37,51,52,57,58,59,71" ;
+    chem:name "aryl alkyl ethers" ;
+    chem:smiles "COc1ccccc1" .
+
+chem:benzenes_1 a chem:benzenes ;
+    rdfs:label "benzenes_1" ;
+    chem:BondAttachment chem:benzenes_2,
+        chem:thiophenes_1 ;
+    chem:Containment chem:1-benzazecines_1,
+        chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_1 ;
+    chem:Fusion chem:isoquinolines_2 ;
+    chem:indices "6,7,8,9,90,91" ;
+    chem:name "benzenes" ;
+    chem:smiles "c1ccccc1" .
+
+chem:1-benzazecines_1 a chem:1-benzazecines ;
+    rdfs:label "1-benzazecines_1" ;
+    chem:indices "6,7,8,9,10,11,12,13,27,28,73,74,90,91" ;
+    chem:name "1-benzazecines" ;
+    chem:smiles "c1cccnc2ccccc2ccc1" .
+
+chem:1-benzazecines_2 a chem:1-benzazecines ;
+    rdfs:label "1-benzazecines_2" ;
+    chem:indices "6,7,8,9,10,11,27,28,73,74,75,89,90,91" ;
+    chem:name "1-benzazecines" ;
+    chem:smiles "c1cccnc2ccccc2ccc1" .
+
+chem:alcohols_2 a chem:alcohols ;
+    rdfs:label "alcohols_2" ;
+    chem:BondAttachment chem:1-benzazecines_1,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_1,
+        chem:pyridines_1,
+        chem:quinolines_1 ;
+    chem:indices "14,15" ;
+    chem:name "alcohols" ;
+    chem:smiles "CO" .
+
+chem:alcohols_8 a chem:alcohols ;
+    rdfs:label "alcohols_8" ;
+    chem:BondAttachment chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_2,
+        chem:pyridines_2,
+        chem:quinolines_2 ;
+    chem:indices "76,77" ;
+    chem:name "alcohols" ;
+    chem:smiles "CO" .
+
+chem:benzenes_2 a chem:benzenes ;
+    rdfs:label "benzenes_2" ;
+    chem:BondAttachment chem:thiophenes_2 ;
+    chem:Containment chem:1-benzazecines_1,
+        chem:1-benzazecines_2,
+        <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1>,
+        chem:isoquinolines_2 ;
+    chem:Fusion chem:isoquinolines_1 ;
+    chem:indices "10,11,27,28,73,74" ;
+    chem:name "benzenes" ;
+    chem:smiles "c1ccccc1" .
+
+chem:thiophenes_4 a chem:thiophenes ;
+    rdfs:label "thiophenes_4" ;
+    chem:Containment chem:1-benzothiophenes_2 ;
+    chem:Fusion chem:1-benzothiophenes_1 ;
+    chem:indices "51,52,53,54,56" ;
+    chem:name "thiophenes" ;
+    chem:smiles "c1ccsc1" .
+
+chem:thiophenes_3 a chem:thiophenes ;
+    rdfs:label "thiophenes_3" ;
+    chem:Containment chem:1-benzothiophenes_1 ;
+    chem:Fusion chem:1-benzothiophenes_2 ;
+    chem:indices "34,35,36,71,72" ;
+    chem:name "thiophenes" ;
+    chem:smiles "c1ccsc1" .
+
+<http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1> a <http://example.org/chemistry#2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes> ;
+    rdfs:label "2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes_1" ;
+    chem:Containment chem:1-benzazecines_1,
+        chem:1-benzazecines_2 ;
+    chem:indices "6,7,8,9,10,11,12,13,27,28,73,74,75,89,90,91" ;
+    chem:name "2,9-diazatetracyclo[6.6.2.0⁴,¹⁶.0¹¹,¹⁵]hexadeca-1,3,5,7,9,11,13,15-octaenes" ;
+    chem:smiles "c1cc2cnc3cccc4cnc(c1)c2c43" .
+
+chem:alcohols_4 a chem:alcohols ;
+    rdfs:label "alcohols_4" ;
+    chem:BondAttachment chem:1-benzothiophenes_1,
+        chem:1-benzothiophenes_2,
+        chem:benzenes_3 ;
+    chem:indices "38,39" ;
+    chem:name "alcohols" ;
+    chem:smiles "CO" .
+
+chem:alcohols_6 a chem:alcohols ;
+    rdfs:label "alcohols_6" ;
+    chem:BondAttachment chem:1-benzothiophenes_1,
+        chem:1-benzothiophenes_2,
+        chem:benzenes_3 ;
+    chem:indices "58,59" ;
+    chem:name "alcohols" ;
+    chem:smiles "CO" .
+
+chem:aliphatic_compounds a owl:Class ;
+    rdfs:label "aliphatic compounds" .
+
+chem:alkanes a owl:Class ;
+    rdfs:label "alkanes" .
+
+chem:compounds a owl:Class ;
+    rdfs:label "compounds" .
+
+chem:organic_compounds a owl:Class ;
+    rdfs:label "organic compounds" .
+
