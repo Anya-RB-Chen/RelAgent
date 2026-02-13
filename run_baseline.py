@@ -38,6 +38,15 @@ from relagent.pipeline import (
     run_end_to_end,
 )
 from relagent.evaluation import evaluate
+from relagent.run_recorder import (
+    start_run,
+    finish_run,
+    fail_run,
+    record_output,
+    _serializable_config,
+    ARTIFACTS,
+    RUN_SUMMARY_FILENAME,
+)
 
 
 def main():
@@ -67,25 +76,34 @@ def main():
         if not args.smiles or not args.caption:
             print("Error: --run_e2e requires --smiles and --caption")
             sys.exit(1)
-        from relagent.llm import RelAgentLLM
-        llm = RelAgentLLM(model=args.model)
-        graph = run_end_to_end(
-            args.smiles,
-            args.caption,
-            llm,
-            n_ee_samples=args.n_ee_samples,
-            rel_selection_policy=args.e2e_policy,
-            molgenie_dir=args.molgenie_dir,
-        )
-        if graph is None:
-            print("Pipeline did not produce a graph (e.g. no valid EE/localization).")
-            sys.exit(1)
-        print(json.dumps(graph, indent=2))
-        if args.e2e_out:
-            os.makedirs(os.path.dirname(os.path.abspath(args.e2e_out)) or ".", exist_ok=True)
-            with open(args.e2e_out, "w") as f:
+        out_dir = os.path.dirname(os.path.abspath(args.e2e_out)) if args.e2e_out else args.output_dir
+        os.makedirs(out_dir, exist_ok=True)
+        start_run(out_dir, "e2e", _serializable_config(args))
+        try:
+            from relagent.llm import RelAgentLLM
+            llm = RelAgentLLM(model=args.model)
+            graph = run_end_to_end(
+                args.smiles,
+                args.caption,
+                llm,
+                n_ee_samples=args.n_ee_samples,
+                rel_selection_policy=args.e2e_policy,
+                molgenie_dir=args.molgenie_dir,
+            )
+            if graph is None:
+                fail_run(out_dir, "Pipeline did not produce a graph (e.g. no valid EE/localization).")
+                sys.exit(1)
+            graph_path = args.e2e_out or os.path.join(out_dir, ARTIFACTS["graph"])
+            os.makedirs(os.path.dirname(os.path.abspath(graph_path)) or ".", exist_ok=True)
+            with open(graph_path, "w") as f:
                 json.dump(graph, f, indent=2)
-            print(f"Wrote graph to {args.e2e_out}")
+            outputs = [record_output(out_dir, os.path.basename(graph_path), "Output graph (substructures + relationships)")]
+            finish_run(out_dir, {"success": True, "graph_path": graph_path, "num_substructures": len(graph.get("substructures", [])), "num_relationships": len(graph.get("relationships", []))}, outputs)
+            print(json.dumps(graph, indent=2))
+            print(f"\nRun summary: {os.path.join(out_dir, RUN_SUMMARY_FILENAME)}")
+        except Exception as e:
+            fail_run(out_dir, str(e))
+            raise
         return
 
     test_data = load_test_data(args.test_data)
@@ -94,6 +112,10 @@ def main():
         if not args.ee_outputs:
             print("Error: --build_prompts_only requires --ee_outputs")
             sys.exit(1)
+        out_dir = os.path.dirname(os.path.abspath(args.prompts_out)) if args.prompts_out else args.output_dir
+        os.makedirs(out_dir, exist_ok=True)
+        start_run(out_dir, "build_prompts_only", _serializable_config(args))
+        prompts_path = args.prompts_out or os.path.join(out_dir, ARTIFACTS["prompts"])
         ee_outputs = load_ee_outputs(args.ee_outputs)
         prompts_data = ee_to_rel_prompts(
             test_data,
@@ -101,25 +123,25 @@ def main():
             molgenie_dir=args.molgenie_dir or os.path.join(os.path.dirname(args.test_data), "..", "molgenie"),
             molonto_cache_dir=os.path.join(os.path.dirname(args.test_data), "..", "molonto"),
         )
-        out_path = args.prompts_out or os.path.join(args.output_dir, "rel_prompts.json")
-        os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
-        # Save a serializable form (prompts are per-sample lists)
+        os.makedirs(os.path.dirname(os.path.abspath(prompts_path)) or ".", exist_ok=True)
         to_save = [
-            {
-                "id": p["id"],
-                "num_prompts": len(p["prompts_list"]),
-                "prompts": [x for x in p["prompts_list"] if x],
-            }
+            {"id": p["id"], "num_prompts": len(p["prompts_list"]), "prompts": [x for x in p["prompts_list"] if x]}
             for p in prompts_data
         ]
-        with open(out_path, "w") as f:
+        with open(prompts_path, "w") as f:
             json.dump(to_save, f, indent=2)
-        print(f"Saved {len(to_save)} samples' prompts to {out_path}")
+        outputs = [record_output(out_dir, os.path.basename(prompts_path), "REL prompts per sample")]
+        finish_run(out_dir, {"prompts_path": prompts_path, "num_samples": len(to_save)}, outputs)
+        print(f"Prompts saved: {prompts_path}\nRun summary: {os.path.join(out_dir, RUN_SUMMARY_FILENAME)}")
         return
 
     if not args.rel_outputs:
         print("Error: --rel_outputs required for evaluation (or use --build_prompts_only)")
         sys.exit(1)
+
+    out_dir = args.output_dir
+    os.makedirs(out_dir, exist_ok=True)
+    start_run(out_dir, "evaluate", _serializable_config(args))
 
     rel_outputs = load_rel_outputs(args.rel_outputs)
     if len(rel_outputs) != len(test_data):
@@ -127,20 +149,36 @@ def main():
     selected = select_outputs(rel_outputs, policy=args.policy)
     predictions = parse_predictions(selected)
 
-    os.makedirs(args.output_dir, exist_ok=True)
-    with open(os.path.join(args.output_dir, "selected_outputs.json"), "w") as f:
+    selected_path = os.path.join(out_dir, ARTIFACTS["selected"])
+    predictions_path = os.path.join(out_dir, ARTIFACTS["predictions"])
+    metrics_path = os.path.join(out_dir, ARTIFACTS["metrics"])
+    per_sample_path = os.path.join(out_dir, ARTIFACTS["per_sample"])
+
+    with open(selected_path, "w") as f:
         json.dump(selected, f, indent=2)
-    with open(os.path.join(args.output_dir, "predictions.json"), "w") as f:
+    with open(predictions_path, "w") as f:
         json.dump(predictions, f, indent=2)
 
     metrics = evaluate(test_data, predictions)
-    with open(os.path.join(args.output_dir, "metrics.json"), "w") as f:
-        json.dump(metrics, f, indent=2)
+    agg = {k: v for k, v in metrics.items() if k != "per_sample"}
+    with open(metrics_path, "w") as f:
+        json.dump(agg, f, indent=2)
 
-    print("Metrics:")
-    print(f"  Substructure  P: {metrics['substructure']['precision']:.4f}  R: {metrics['substructure']['recall']:.4f}  F1: {metrics['substructure']['f1']:.4f}")
-    print(f"  Relationship  P: {metrics['relationship']['precision']:.4f}  R: {metrics['relationship']['recall']:.4f}  F1: {metrics['relationship']['f1']:.4f}")
-    print(f"  Num samples:  {metrics['num_samples']}")
+    outputs = [
+        record_output(out_dir, ARTIFACTS["selected"], "Selected REL raw output per sample"),
+        record_output(out_dir, ARTIFACTS["predictions"], "Parsed graphs {id, graph}"),
+        record_output(out_dir, ARTIFACTS["metrics"], "Aggregated evaluation metrics"),
+    ]
+    if metrics.get("per_sample"):
+        with open(per_sample_path, "w") as f:
+            json.dump(metrics["per_sample"], f, indent=2)
+        outputs.append(record_output(out_dir, ARTIFACTS["per_sample"], "Per-sample metrics"))
+
+    n = metrics.get("Total Evaluated", 0)
+    finish_run(out_dir, {"metrics": agg, "num_evaluated": n}, outputs)
+
+    print("\n" + json.dumps(agg, indent=2))
+    print(f"\nRun summary: {os.path.join(out_dir, RUN_SUMMARY_FILENAME)}")
 
 
 if __name__ == "__main__":
