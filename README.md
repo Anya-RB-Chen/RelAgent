@@ -37,9 +37,20 @@ Requires: `rdkit`, `networkx`, `rdflib`, `tqdm`. For E2E runs add `vllm` (GPU).
 
 ### End-to-End (one molecule → graph; needs vLLM):
 
+**Single model** (same for EE and REL):
+
 ```bash
 python run_baseline.py --run_e2e --smiles "CC1=CC=CC=C1" --caption "Benzene ring" --model meta-llama/Llama-3.2-1B-Instruct
 ```
+
+**Separate models** (different fine-tuned models for EE and REL):
+
+```bash
+python run_baseline.py --run_e2e --smiles "CC1=CC=CC=C1" --caption "Benzene ring" \
+  --ee_model path/to/ee_finetuned_model --rel_model path/to/rel_finetuned_model
+```
+
+Optional: `--n_ee_samples N`, `--e2e_policy first|majority_voting|random`, `--e2e_out path/to/graph.json`, `--molgenie_dir data/molgenie`.
 
 ### Evaluate (precomputed EE + REL outputs):
 

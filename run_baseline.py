@@ -54,7 +54,9 @@ def main():
     ap.add_argument("--run_e2e", action="store_true", help="Run end-to-end: input SMILES + caption, output graph (uses vLLM)")
     ap.add_argument("--smiles", default=None, help="SMILES string (required for --run_e2e)")
     ap.add_argument("--caption", default=None, help="Caption string (required for --run_e2e)")
-    ap.add_argument("--model", default="meta-llama/Llama-3.2-1B-Instruct", help="vLLM model for --run_e2e")
+    ap.add_argument("--model", default="meta-llama/Llama-3.2-1B-Instruct", help="vLLM model for both EE and REL (used if --ee_model/--rel_model not set)")
+    ap.add_argument("--ee_model", default=None, help="Separate vLLM model for Entity Extraction (overrides --model for EE)")
+    ap.add_argument("--rel_model", default=None, help="Separate vLLM model for Relationship Reasoning (overrides --model for REL)")
     ap.add_argument("--n_ee_samples", type=int, default=1, help="Number of EE samples for --run_e2e (Best-of-N)")
     ap.add_argument("--e2e_policy", default="first", choices=["first", "majority_voting", "random"],
                     help="REL selection policy for --run_e2e")
@@ -81,11 +83,16 @@ def main():
         start_run(out_dir, "e2e", _serializable_config(args))
         try:
             from relagent.llm import RelAgentLLM
-            llm = RelAgentLLM(model=args.model)
+            # Create LLM instance(s): use separate models if provided, else use single model
+            llm = RelAgentLLM(
+                model=args.model if not (args.ee_model or args.rel_model) else None,
+                ee_model=args.ee_model,
+                rel_model=args.rel_model,
+            )
             graph = run_end_to_end(
                 args.smiles,
                 args.caption,
-                llm,
+                llm=llm,
                 n_ee_samples=args.n_ee_samples,
                 rel_selection_policy=args.e2e_policy,
                 molgenie_dir=args.molgenie_dir,

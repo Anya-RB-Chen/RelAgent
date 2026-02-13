@@ -193,7 +193,9 @@ def run_pipeline_from_ee_and_rel(
 def run_end_to_end(
     smiles: str,
     caption: str,
-    llm,
+    llm=None,
+    llm_ee=None,
+    llm_rel=None,
     n_ee_samples: int = 1,
     rel_selection_policy: str = "first",
     molgenie_dir: str = None,
@@ -206,7 +208,9 @@ def run_end_to_end(
     Args:
         smiles: SMILES string of the molecule.
         caption: Natural language caption.
-        llm: RelAgentLLM instance (from relagent.llm) for EE and REL generation.
+        llm: RelAgentLLM instance (from relagent.llm) for both EE and REL generation (if llm_ee/llm_rel not provided).
+        llm_ee: Optional separate RelAgentLLM instance for Entity Extraction. If None, uses `llm`.
+        llm_rel: Optional separate RelAgentLLM instance for Relationship Reasoning. If None, uses `llm` or `llm_ee`.
         n_ee_samples: Number of EE samples (Best-of-N); one REL run per valid EE candidate.
         rel_selection_policy: How to pick final graph among REL outputs: first, majority_voting, random.
         molgenie_dir: Optional path to MolGenie pickles for ontology context.
@@ -220,6 +224,15 @@ def run_end_to_end(
     from relagent.ontology import build_relationship_context, load_or_build_ontology
     from relagent.util import parse_rel_output
 
+    # Resolve LLM instances: llm_ee and llm_rel take precedence
+    if llm_ee is None:
+        llm_ee = llm
+    if llm_rel is None:
+        llm_rel = llm_ee
+    
+    if llm_ee is None:
+        raise ValueError("Either llm or llm_ee must be provided")
+
     molonto_cache_dir = molonto_cache_dir or "data/molonto"
     all_mols, all_nodes_dict = _load_molgenie(molgenie_dir or "data/molgenie")
     relationships_dict = None
@@ -229,7 +242,7 @@ def run_end_to_end(
         )
 
     # 1) Entity Extraction
-    ee_raw_list = llm.generate_ee(smiles, caption, n=n_ee_samples)
+    ee_raw_list = llm_ee.generate_ee(smiles, caption, n=n_ee_samples)
     ee_candidates = [parse_ee_output(raw) for raw in ee_raw_list]
 
     # 2) Localization + relationship context per EE candidate
@@ -258,7 +271,7 @@ def run_end_to_end(
         return None
 
     # 3) Relationship Reasoning
-    rel_outputs = llm.generate_rel(prompts_list, use_tqdm=len(prompts_list) > 1)
+    rel_outputs = llm_rel.generate_rel(prompts_list, use_tqdm=len(prompts_list) > 1)
 
     # 4) Select one output
     if rel_selection_policy == "first":
