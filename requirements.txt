@@ -1,0 +1,7 @@
+rdkit>=2023.0.0
+networkx>=3.0
+rdflib>=6.0
+tqdm>=4.60
+vllm>=0.4.0
+matplotlib>=3.7
+Pillow>=9.0

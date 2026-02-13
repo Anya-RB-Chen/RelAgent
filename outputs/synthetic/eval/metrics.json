@@ -1,0 +1,53 @@
+{
+  "num_samples": 2,
+  "substructure": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5
+  },
+  "relationship": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5
+  },
+  "per_sample": [
+    {
+      "substructure": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0
+      },
+      "relationship": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 21,
+        "fp": 0,
+        "fn": 0
+      },
+      "id": "25_PCDTPT"
+    },
+    {
+      "substructure": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 8,
+        "fn": 6
+      },
+      "relationship": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 28,
+        "fn": 15
+      },
+      "id": "33_TP4"
+    }
+  ]
+}

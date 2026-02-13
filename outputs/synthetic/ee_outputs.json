@@ -1,0 +1,20 @@
+[
+  {
+    "id": "25_PCDTPT",
+    "outputs": [
+      "[\n    {\n        \"name\": \"benzene\",\n        \"smiles\": \"C1=CC=CC=C1\"\n    },\n    {\n        \"name\": \"thiophene\",\n        \"smiles\": \"C1=CC=CS1\"\n    },\n    {\n        \"name\": \"pyrrole\",\n        \"smiles\": \"C1=CNC=C1\"\n    },\n    {\n        \"name\": \"thiadiazolopyridine\",\n        \"smiles\": \"C12=NSN=C1C=NC=C2\"\n    }\n]"
+    ]
+  },
+  {
+    "id": "25_PCDTPT",
+    "outputs": [
+      "[\n    {\n        \"name\": \"sulfur\",\n        \"smiles\": \"[S]\"\n    },\n    {\n        \"name\": \"nitrogen\",\n        \"smiles\": \"[N]\"\n    }\n]"
+    ]
+  },
+  {
+    "id": "33_TP4",
+    "outputs": [
+      "[\n    {\n        \"name\": \"benzene\",\n        \"smiles\": \"C1=CC=CC=C1\"\n    },\n    {\n        \"name\": \"thiophene\",\n        \"smiles\": \"C1=CC=CS1\"\n    },\n    {\n        \"name\": \"thieno[3,4-b]pyrazine\",\n        \"smiles\": \"C12=CSC=C1N=CC=N2\"\n    },\n    {\n        \"name\": \"pyrrole\",\n        \"smiles\": \"C1=CNC=C1\"\n    }\n]"
+    ]
+  }
+]

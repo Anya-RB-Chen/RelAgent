@@ -1,0 +1,566 @@
+[
+  {
+    "id": "25_PCDTPT",
+    "graph": {
+      "substructures": [
+        {
+          "name": "benzene",
+          "instance_id": "BENZE1",
+          "atom_indices": [
+            1,
+            2,
+            3,
+            48,
+            49,
+            50
+          ]
+        },
+        {
+          "name": "benzene",
+          "instance_id": "BENZE2",
+          "atom_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            47
+          ]
+        },
+        {
+          "name": "thiophene",
+          "instance_id": "THIOP1",
+          "atom_indices": [
+            27,
+            28,
+            29,
+            30,
+            46
+          ]
+        },
+        {
+          "name": "thiophene",
+          "instance_id": "THIOP2",
+          "atom_indices": [
+            35,
+            36,
+            37,
+            38,
+            40
+          ]
+        },
+        {
+          "name": "pyrrole",
+          "instance_id": "PYRRO1",
+          "atom_indices": [
+            23,
+            22,
+            4,
+            3,
+            48
+          ]
+        },
+        {
+          "name": "thiadiazolopyridine",
+          "instance_id": "THIAD1",
+          "atom_indices": [
+            45,
+            44,
+            43,
+            42,
+            41,
+            34,
+            33,
+            32,
+            31
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "BENZE2",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "THIOP1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "THIOP2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "PYRRO1",
+          "relationship": "Fusion"
+        },
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "THIAD1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE2",
+          "substructure_b": "THIOP1",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "BENZE2",
+          "substructure_b": "THIOP2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE2",
+          "substructure_b": "PYRRO1",
+          "relationship": "Fusion"
+        },
+        {
+          "substructure_a": "BENZE2",
+          "substructure_b": "THIAD1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "THIOP1",
+          "substructure_b": "THIOP2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "THIOP1",
+          "substructure_b": "PYRRO1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "THIOP1",
+          "substructure_b": "THIAD1",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "THIOP2",
+          "substructure_b": "PYRRO1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "THIOP2",
+          "substructure_b": "THIAD1",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "PYRRO1",
+          "substructure_b": "THIAD1",
+          "relationship": "Others"
+        }
+      ]
+    }
+  },
+  {
+    "id": "25_PCDTPT",
+    "graph": {
+      "substructures": [
+        {
+          "name": "sulfur",
+          "instance_id": "SULFU1",
+          "atom_indices": [
+            40
+          ]
+        },
+        {
+          "name": "sulfur",
+          "instance_id": "SULFU2",
+          "atom_indices": [
+            43
+          ]
+        },
+        {
+          "name": "sulfur",
+          "instance_id": "SULFU3",
+          "atom_indices": [
+            46
+          ]
+        },
+        {
+          "name": "nitrogen",
+          "instance_id": "NITRO1",
+          "atom_indices": [
+            4
+          ]
+        },
+        {
+          "name": "nitrogen",
+          "instance_id": "NITRO2",
+          "atom_indices": [
+            33
+          ]
+        },
+        {
+          "name": "nitrogen",
+          "instance_id": "NITRO3",
+          "atom_indices": [
+            42
+          ]
+        },
+        {
+          "name": "nitrogen",
+          "instance_id": "NITRO4",
+          "atom_indices": [
+            44
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "substructure_a": "SULFU1",
+          "substructure_b": "SULFU2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU1",
+          "substructure_b": "SULFU3",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU1",
+          "substructure_b": "NITRO1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU1",
+          "substructure_b": "NITRO2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU1",
+          "substructure_b": "NITRO3",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU1",
+          "substructure_b": "NITRO4",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU2",
+          "substructure_b": "SULFU3",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU2",
+          "substructure_b": "NITRO1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU2",
+          "substructure_b": "NITRO2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU2",
+          "substructure_b": "NITRO3",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "SULFU2",
+          "substructure_b": "NITRO4",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "SULFU3",
+          "substructure_b": "NITRO1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU3",
+          "substructure_b": "NITRO2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU3",
+          "substructure_b": "NITRO3",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "SULFU3",
+          "substructure_b": "NITRO4",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "NITRO1",
+          "substructure_b": "NITRO2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "NITRO1",
+          "substructure_b": "NITRO3",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "NITRO1",
+          "substructure_b": "NITRO4",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "NITRO2",
+          "substructure_b": "NITRO3",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "NITRO2",
+          "substructure_b": "NITRO4",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "NITRO3",
+          "substructure_b": "NITRO4",
+          "relationship": "Others"
+        }
+      ]
+    }
+  },
+  {
+    "id": "33_TP4",
+    "graph": {
+      "substructures": [
+        {
+          "name": "benzene",
+          "instance_id": "BENZE1",
+          "atom_indices": [
+            1,
+            2,
+            3,
+            64,
+            65,
+            66
+          ]
+        },
+        {
+          "name": "benzene",
+          "instance_id": "BENZE2",
+          "atom_indices": [
+            26,
+            27,
+            28,
+            29,
+            30,
+            63
+          ]
+        },
+        {
+          "name": "benzene",
+          "instance_id": "BENZE3",
+          "atom_indices": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ]
+        },
+        {
+          "name": "benzene",
+          "instance_id": "BENZE4",
+          "atom_indices": [
+            47,
+            48,
+            49,
+            50,
+            51,
+            52
+          ]
+        },
+        {
+          "name": "thiophene",
+          "instance_id": "THIOP1",
+          "atom_indices": [
+            31,
+            32,
+            33,
+            34,
+            62
+          ]
+        },
+        {
+          "name": "thiophene",
+          "instance_id": "THIOP2",
+          "atom_indices": [
+            55,
+            56,
+            57,
+            58,
+            60
+          ]
+        },
+        {
+          "name": "thieno[3,4-b]pyrazine",
+          "instance_id": "THIEN1",
+          "atom_indices": [
+            36,
+            35,
+            61,
+            54,
+            37,
+            38,
+            39,
+            46,
+            53
+          ]
+        },
+        {
+          "name": "pyrrole",
+          "instance_id": "PYRRO1",
+          "atom_indices": [
+            27,
+            26,
+            4,
+            3,
+            64
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "BENZE2",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "BENZE3",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "BENZE4",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "THIOP1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "THIOP2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "THIEN1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE1",
+          "substructure_b": "PYRRO1",
+          "relationship": "Fusion"
+        },
+        {
+          "substructure_a": "BENZE2",
+          "substructure_b": "BENZE3",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE2",
+          "substructure_b": "BENZE4",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE2",
+          "substructure_b": "THIOP1",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "BENZE2",
+          "substructure_b": "THIOP2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE2",
+          "substructure_b": "THIEN1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE2",
+          "substructure_b": "PYRRO1",
+          "relationship": "Fusion"
+        },
+        {
+          "substructure_a": "BENZE3",
+          "substructure_b": "BENZE4",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE3",
+          "substructure_b": "THIOP1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE3",
+          "substructure_b": "THIOP2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE3",
+          "substructure_b": "THIEN1",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "BENZE3",
+          "substructure_b": "PYRRO1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE4",
+          "substructure_b": "THIOP1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE4",
+          "substructure_b": "THIOP2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "BENZE4",
+          "substructure_b": "THIEN1",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "BENZE4",
+          "substructure_b": "PYRRO1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "THIOP1",
+          "substructure_b": "THIOP2",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "THIOP1",
+          "substructure_b": "THIEN1",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "THIOP1",
+          "substructure_b": "PYRRO1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "THIOP2",
+          "substructure_b": "THIEN1",
+          "relationship": "BondAttachment"
+        },
+        {
+          "substructure_a": "THIOP2",
+          "substructure_b": "PYRRO1",
+          "relationship": "Others"
+        },
+        {
+          "substructure_a": "THIEN1",
+          "substructure_b": "PYRRO1",
+          "relationship": "Others"
+        }
+      ]
+    }
+  }
+]
