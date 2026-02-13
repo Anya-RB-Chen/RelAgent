@@ -69,3 +69,11 @@ Each run writes to one directory. **`run_summary.json`** = config, status, and s
 | `data/molground/` | Test/val data (id, smiles, caption, ground_truth) |
 
 Optional: `data/molgenie/` (MolGenie pickles) for ontology-based context.
+
+---
+
+## Data
+
+**Examples on GitHub.** This repository includes small data examples under `data/molground/` so you can run the baseline and check the format (e.g. `molground_test.json` with `id`, `smiles`, `caption`, `ground_truth`).
+
+**Full dataset.** The full MolGround dataset is not included in the repo. To obtain it, please send a request and complete the provided agreement form. The full dataset is **free for non-commercial / academic research use**.
